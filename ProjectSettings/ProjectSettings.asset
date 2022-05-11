@@ -589,7 +589,8 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: MOREMOUNTAINS_FEEDBACKS;DREAMTECK_SPLINES;LETAI_TRUESHADOW;MOREMOUNTAINS_NICEVIBRATIONS;MOREMOUNTAINS_TOOLS;ODIN_INSPECTOR;ODIN_INSPECTOR_3;MOREMOUNTAINS_TEXTMESHPRO_INSTALLED;MOREMOUNTAINS_TOOLS_FOR_MMFEEDBACKS
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

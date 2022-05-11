@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8119b669aa4843b99e07df0311cba092, type: 3}
+  m_Name: Playfab Settings
+  m_EditorClassIdentifier: 
+  baseSettings: {fileID: 11400000, guid: 698b2db098268c640929a7b8090a31eb, type: 2}
+  titleId: 536C1
+  developerSecreteKey: ZSDK9TRJZIPNXSWGJFOWZ8YS5C8DXIE6JJAW6EW95SCGZ6J896
