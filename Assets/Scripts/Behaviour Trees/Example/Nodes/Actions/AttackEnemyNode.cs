@@ -1,4 +1,6 @@
 ﻿using DG.Tweening;
+using DG.Tweening.Core;
+using DG.Tweening.Plugins.Options;
 using PGSauce.Core.Extensions;
 using PGSauce.Core.Strings;
 using UnityEngine;
@@ -11,6 +13,19 @@ namespace ESGI.BehaviourTrees.Example
         [SerializeField] private SharedEnemy enemy;
         [SerializeField] private Ease jumpEase;
         private bool _init;
+        private Tween _attack;
+
+        protected override void OnInit()
+        {
+            base.OnInit();
+            _init = false;
+        }
+
+        public override void OnBeforeExecute()
+        {
+            base.OnBeforeExecute();
+            _init = false;
+        }
 
         protected override NodeState OnUpdate()
         {
@@ -19,19 +34,16 @@ namespace ESGI.BehaviourTrees.Example
                 return NodeState.Success;
             }
 
-            var state = NodeState.Running;
-
-            if (!_init)
+            if (_attack == null)
             {
-                _init = true;
-                Agent.transform.DOMoveY(2, .75f / 2).SetLoops(2, LoopType.Yoyo).SetEase(jumpEase).OnComplete(() =>
+                _attack = Agent.AttackTransform.DOLocalMoveY(2, .75f / 2).SetLoops(2, LoopType.Yoyo).SetEase(jumpEase).OnComplete(() =>
                 {
-                    Destroy(enemy.Value);
-                    _init = false;
-                    state = NodeState.Success;
+                    Destroy(enemy.Value.gameObject);
+                    _attack = null;
                 });
             }
 
+            const NodeState state = NodeState.Running;
             return state;
         }
     }

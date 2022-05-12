@@ -13,6 +13,12 @@ namespace ESGI.BehaviourTrees.Example.Conditions
         [SerializeField] private float fovDistance = 6f;
         [SerializeField] private GlobalLayerMask enemyMask;
 
+        public override void OnBeforeExecute()
+        {
+            base.OnBeforeExecute();
+            target.ResetVariable();
+        }
+
         protected override NodeState OnUpdate()
         {
             if (target.Value)

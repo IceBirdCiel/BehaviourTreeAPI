@@ -13,6 +13,7 @@ namespace ESGI.BehaviourTrees
         
         private List<Node<TAgent>> _nodes;
         override public NodeBase root => startNode as NodeBase;
+        public override NodeBase CurrentNode { get; }
 
         [ShowInInspector, ReadOnly]
         private NodeState State { get; set; }

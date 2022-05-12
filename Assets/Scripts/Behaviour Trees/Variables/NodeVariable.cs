@@ -11,5 +11,10 @@ namespace ESGI.BehaviourTrees
     {
         [ShowInInspector, ReadOnly]
         public T Value { get; set; }
+        
+        public void ResetVariable()
+        {
+            Value = default;
+        }
     }
 }

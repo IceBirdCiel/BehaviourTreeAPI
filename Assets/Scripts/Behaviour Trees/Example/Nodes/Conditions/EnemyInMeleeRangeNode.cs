@@ -10,6 +10,13 @@ namespace ESGI.BehaviourTrees.Example.Conditions
         [SerializeField] private float attackRange = 1;
         [SerializeField] private SharedTransform target;
         [SerializeField] private SharedEnemy enemy;
+
+        public override void OnBeforeExecute()
+        {
+            base.OnBeforeExecute();
+            enemy.ResetVariable();
+        }
+
         protected override NodeState OnUpdate()
         {
             if (!target.Value)

@@ -76,14 +76,6 @@ namespace ESGI.BehaviourTrees
         }
 
         /// <summary>
-        /// Same as <see cref="OnUpdate"/> (OnUpdate), called during physics loop.
-        /// </summary>
-        public virtual void OnFixedUpdate()
-        {
-            
-        }
-
-        /// <summary>
         /// Called at the end of the execution, on Success or Fail
         /// </summary>
         public virtual void OnExecutionEnd()
