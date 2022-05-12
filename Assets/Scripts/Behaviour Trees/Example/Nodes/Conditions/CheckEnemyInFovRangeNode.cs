@@ -24,6 +24,7 @@ namespace ESGI.BehaviourTrees.Example.Conditions
 
             if (colliders.Length > 0)
             {
+                target.Value = colliders[0].transform;
                 return NodeState.Success;
             }
 

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using PGSauce.Core.PGDebugging;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -9,6 +10,9 @@ namespace ESGI.BehaviourTrees
     public abstract class Node<TAgent> : NodeBase where TAgent : MonoBehaviour
     {
         [SerializeField] private List<Node<TAgent>> children;
+
+        private const bool Debug = true;
+
         /// <summary>
         /// The tree owning this node
         /// </summary>
@@ -56,6 +60,7 @@ namespace ESGI.BehaviourTrees
         public NodeState Update()
         {
             State = OnUpdate();
+            PGDebug.SetCondition(Debug).SetContext(this).Message($"Update Node {name}, state is {State}").Log();
             return State;
         }
 

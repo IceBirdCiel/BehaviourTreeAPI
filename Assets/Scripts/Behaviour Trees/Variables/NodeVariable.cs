@@ -1,4 +1,5 @@
 ﻿using System;
+using Sirenix.OdinInspector;
 
 namespace ESGI.BehaviourTrees
 {
@@ -8,6 +9,7 @@ namespace ESGI.BehaviourTrees
     /// <typeparam name="T">The type of variable (bool, int, string etc.)</typeparam>
     public class NodeVariable<T> : NodeVariableBase
     {
+        [ShowInInspector, ReadOnly]
         public T Value { get; set; }
     }
 }

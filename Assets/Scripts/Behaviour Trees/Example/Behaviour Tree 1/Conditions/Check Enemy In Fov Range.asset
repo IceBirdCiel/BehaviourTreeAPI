@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   children: []
   target: {fileID: 11400000, guid: 6042b9303dc635642bd793621e7a4c52, type: 2}
-  fovDistance: 6
+  fovDistance: 4.4
   enemyMask: {fileID: 11400000, guid: 95f5eda6160901f4ba4edb396d7e7e47, type: 2}
