@@ -13,8 +13,10 @@ public class BossScript : MonoBehaviour
     private float Health = 100;
     private float MaxHealth = 100;
     private Slider slider;
-    private float minDist = 3;
+    private float minDist = 2;
+    private float minDistAttack = 1;
     private float maxDist = 10;
+    private float maxDistAttack = 4;
     private bool isDead = false;
     // Start is called before the first frame update
     void Start()
@@ -32,13 +34,23 @@ public class BossScript : MonoBehaviour
         {
             LookAtPlayer();
             UpdateHealth();
-            if (IsPlayerInRange())
+            
+            if (IsPlayerInVisionRange())
             {
-                MoveTowardPlayer();
-                AttackPlayer();
+                if (isPlayerInAttackRange())
+                {
+                    AttackPlayer();
+                }
+                else
+                {
+                    MoveTowardPlayer();
+                }
             }
             else
-                MoveAroundPlayer();
+            {
+                MoveAroundPlayerLeft();
+
+            }
         }
 
     }
@@ -60,10 +72,17 @@ public class BossScript : MonoBehaviour
         }
     }
 
-    void MoveAroundPlayer()
+    void MoveAroundPlayerRight()
     {
         var q = transform.rotation;
-        transform.RotateAround(player.transform.position, Vector3.forward, 50 * Time.deltaTime);
+        transform.RotateAround(player.transform.position, Vector3.up, 20 * Time.deltaTime);
+        transform.rotation = q;
+    }
+
+    void MoveAroundPlayerLeft()
+    {
+        var q = transform.rotation;
+        transform.RotateAround(player.transform.position, Vector3.up, -20 * Time.deltaTime);
         transform.rotation = q;
     }
 
@@ -76,7 +95,14 @@ public class BossScript : MonoBehaviour
         animator.SetBool("Attack", false);
         MoveBackwardPlayer();
     }
-    bool IsPlayerInRange()
+    bool isPlayerInAttackRange()
+    {
+        float dist = Vector3.Distance(transform.position, player.transform.position);
+        if (dist < maxDistAttack && dist > minDistAttack)
+            return true;
+        else return false;
+    }
+    bool IsPlayerInVisionRange()
     {
         float dist = Vector3.Distance(transform.position, player.transform.position);
         if ( dist < maxDist && dist > minDist)
