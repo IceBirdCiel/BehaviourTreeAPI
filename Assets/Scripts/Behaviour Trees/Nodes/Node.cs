@@ -4,6 +4,7 @@ using System.Reflection;
 using PGSauce.Core.PGDebugging;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using System.Linq;
 
 namespace ESGI.BehaviourTrees
 {
@@ -11,9 +12,9 @@ namespace ESGI.BehaviourTrees
     public abstract class Node<TAgent> : NodeBase where TAgent : MonoBehaviour
     {
         [SerializeField] private List<Node<TAgent>> children;
-
         private const bool Debug = true;
-
+        public override List<NodeBase> _children => children.Select(x => x as NodeBase).ToList();
+        public override NodeState states => State;
         /// <summary>
         /// The tree owning this node
         /// </summary>

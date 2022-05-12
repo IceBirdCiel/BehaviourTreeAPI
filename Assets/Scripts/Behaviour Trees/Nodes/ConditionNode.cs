@@ -2,7 +2,7 @@
 
 namespace ESGI.BehaviourTrees
 {
-    public abstract class ConditionNode<TAgent> : Node<TAgent> where TAgent : MonoBehaviour
+    public abstract class ConditionNode<TAgent> : Node<TAgent>, ConditionNodeBase where TAgent : MonoBehaviour
     {
         
     }

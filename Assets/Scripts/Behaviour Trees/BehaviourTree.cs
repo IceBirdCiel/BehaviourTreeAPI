@@ -6,12 +6,13 @@ using UnityEngine;
 
 namespace ESGI.BehaviourTrees
 {
-    public abstract class BehaviourTree<TAgent> : MonoBehaviour where TAgent : MonoBehaviour
+    public abstract class BehaviourTree<TAgent> : BehaviourTreeBase where TAgent : MonoBehaviour
     {
         [SerializeField] private Node<TAgent> startNode;
         [SerializeField] private TAgent agent; 
         
         private List<Node<TAgent>> _nodes;
+        override public NodeBase root => startNode as NodeBase;
 
         [ShowInInspector, ReadOnly]
         private NodeState State { get; set; }
