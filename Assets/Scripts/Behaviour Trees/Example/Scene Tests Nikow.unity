@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -651,7 +651,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -25.4, y: -5.899994}
+  m_AnchoredPosition: {x: -25.399994, y: -5.9000244}
   m_SizeDelta: {x: -268.76, y: -313.5267}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &316506696
@@ -806,6 +806,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 433886102}
+  - component: {fileID: 433886103}
   - component: {fileID: 433886101}
   - component: {fileID: 433886100}
   - component: {fileID: 433886099}
@@ -892,6 +893,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433886103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433886098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 900ea6f8706945641818d56e90a1ec44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &474246728
 GameObject:
   m_ObjectHideFlags: 0
@@ -2723,7 +2736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -105, y: -5.899994}
+  m_AnchoredPosition: {x: -105.000015, y: -5.9000244}
   m_SizeDelta: {x: -268.76, y: -313.5267}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2075085502
