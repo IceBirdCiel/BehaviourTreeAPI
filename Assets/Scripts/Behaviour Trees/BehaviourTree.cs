@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using PGSauce.Core.PGDebugging;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace ESGI.BehaviourTrees
@@ -12,6 +13,7 @@ namespace ESGI.BehaviourTrees
         
         private List<Node<TAgent>> _nodes;
 
+        [ShowInInspector, ReadOnly]
         private NodeState State { get; set; }
 
         protected void Awake()

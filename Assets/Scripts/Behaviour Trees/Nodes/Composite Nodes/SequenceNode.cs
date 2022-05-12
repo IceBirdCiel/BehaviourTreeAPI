@@ -8,14 +8,14 @@ namespace ESGI.BehaviourTrees
     /// <summary>
     /// And logic gate node. The node succeeds only if all the children succeed;
     /// </summary>
-    [CreateAssetMenu(menuName = MenuPaths.Nodes + "Sequence Node")]
     public class SequenceNode<TAgent> : CompositeNode<TAgent> where TAgent : MonoBehaviour
     {
         protected override NodeState OnUpdate()
         {
             var childRunning = false;
-            foreach (var status in Children.Select(child => child.Update()))
+            foreach (var child in Children)
             {
+                var status = child.Update();
                 switch (status)
                 {
                     case NodeState.Failure:

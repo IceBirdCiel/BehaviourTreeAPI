@@ -11,8 +11,9 @@ namespace ESGI.BehaviourTrees
     {
         protected sealed override NodeState OnUpdate()
         {
-            foreach (var status in Children.Select(child => child.Update()))
+            foreach (var child in Children)
             {
+                var status = child.Update();
                 switch (status)
                 {
                     case NodeState.Failure:
