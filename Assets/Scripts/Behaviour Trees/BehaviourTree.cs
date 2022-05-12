@@ -12,7 +12,7 @@ namespace ESGI.BehaviourTrees
         [SerializeField] private TAgent agent; 
         
         private List<Node<TAgent>> _nodes;
-        override public NodeBase root => startNode as NodeBase;
+        public override NodeBase root => startNode as NodeBase;
         public override NodeBase CurrentNode { get; }
 
         [ShowInInspector, ReadOnly]

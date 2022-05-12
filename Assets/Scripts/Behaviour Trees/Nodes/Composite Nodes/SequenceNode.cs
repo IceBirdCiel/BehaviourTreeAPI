@@ -15,6 +15,10 @@ namespace ESGI.BehaviourTrees
             var childRunning = false;
             foreach (var child in Children)
             {
+                if (child.State == NodeState.NotExecuted)
+                {
+                    child.OnBeforeExecute();
+                }
                 var status = child.Update();
                 switch (status)
                 {

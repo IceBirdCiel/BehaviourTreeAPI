@@ -24,7 +24,7 @@ namespace ESGI.BehaviourTrees
 
         protected Node<TAgent> Parent { get; set; }
         [ShowInInspector, ReadOnly]
-        protected NodeState State { get; private set; }
+        public NodeState State { get; set; }
 
         public List<Node<TAgent>> Children => children;
 
@@ -39,6 +39,8 @@ namespace ESGI.BehaviourTrees
             {
                 child.Parent = this;
             }
+
+            State = NodeState.NotExecuted;
             
             OnInit();
         }
@@ -62,6 +64,10 @@ namespace ESGI.BehaviourTrees
         public NodeState Update()
         {
             State = OnUpdate();
+            if (State == NodeState.Success || State == NodeState.Failure)
+            {
+                OnExecutionEnd();
+            }
             PGDebug.SetCondition(Debug).SetContext(this).Message($"Update Node {name}, state is {State}").Log();
             return State;
         }
@@ -75,18 +81,10 @@ namespace ESGI.BehaviourTrees
             return NodeState.Success;
         }
 
-        /// <summary>
+        /// <summary>u
         /// Called at the end of the execution, on Success or Fail
         /// </summary>
-        public virtual void OnExecutionEnd()
-        {
-            
-        }
-
-        /// <summary>
-        /// Called when the behaviour tree has finished executing
-        /// </summary>
-        public virtual void OnBehaviourTreeExecutionEnd()
+        protected virtual void OnExecutionEnd()
         {
             
         }
