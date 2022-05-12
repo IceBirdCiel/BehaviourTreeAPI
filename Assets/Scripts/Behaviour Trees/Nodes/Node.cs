@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using System.Linq;
 
 namespace ESGI.BehaviourTrees
 {
@@ -9,6 +10,8 @@ namespace ESGI.BehaviourTrees
     public abstract class Node<TAgent> : NodeBase where TAgent : MonoBehaviour
     {
         [SerializeField] private List<Node<TAgent>> children;
+        override public List<NodeBase> _children => children.Select(x => x as NodeBase).ToList();
+        override public NodeState states => State;
         /// <summary>
         /// The tree owning this node
         /// </summary>
