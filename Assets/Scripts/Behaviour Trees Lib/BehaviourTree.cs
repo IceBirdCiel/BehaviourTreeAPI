@@ -6,18 +6,30 @@ using UnityEngine;
 
 namespace ESGI.BehaviourTrees
 {
+    /// <summary>
+    /// The class to derive from to create a Behaviour Tree. It is a MonoBehaviour.
+    /// </summary>
+    /// <typeparam name="TAgent">The type of the agent being controlled by the tree (Boss, Enemy etc.)</typeparam>
     public abstract class BehaviourTree<TAgent> : BehaviourTreeBase where TAgent : MonoBehaviour
     {
         [SerializeField] private Node<TAgent> startNode;
         [SerializeField] private TAgent agent; 
         
         private List<Node<TAgent>> _nodes;
-        public override NodeBase root => startNode as NodeBase;
-        public override NodeBase CurrentNode { get; }
+        private bool Activated => State == NodeState.Running;
+
+        /// <summary>
+        /// A reference to the MonoBehaviour being controlled by this BT.
+        /// </summary>
+        public TAgent Agent => agent;
 
         [ShowInInspector, ReadOnly]
         private NodeState State { get; set; }
 
+        /// <summary>
+        /// Checks if the Agent is null, if not tries to get it. If still null, logs an
+        /// error.
+        /// </summary>
         protected void Awake()
         {
             if (Agent == null)
@@ -118,9 +130,5 @@ namespace ESGI.BehaviourTrees
                 InitNodes(child);
             }
         }
-
-        public bool Activated => State == NodeState.Running;
-
-        public TAgent Agent => agent;
     }
 }

@@ -5,10 +5,10 @@ using UnityEngine;
 
 namespace ESGI.BehaviourTrees
 {
+    /// <summary>
+    /// Non generic version of the BT.
+    /// </summary>
     public abstract class BehaviourTreeBase : MonoBehaviour
     {
-        public abstract NodeBase root { get; }
-        [ShowInInspector]
-        public abstract NodeBase CurrentNode { get; }
     }
 }

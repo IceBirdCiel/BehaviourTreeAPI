@@ -6,7 +6,7 @@
           "files": [
             "**.cs"
           ],
-          "src": "../../Assets/Scripts/Behaviour Trees"
+          "src": "../../Assets/Scripts/Behaviour Trees Lib"
         }
       ],
       "dest": "_api",

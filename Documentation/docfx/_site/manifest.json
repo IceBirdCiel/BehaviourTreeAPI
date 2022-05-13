@@ -4,12 +4,336 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.ActionNode-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.ActionNode-1.html",
+          "hash": "SupZVxAJsIdGdFJmuTLhD7k7fnYPeoj3xtdW1SQ2ElU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.BehaviourTree-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.BehaviourTree-1.html",
+          "hash": "eITWylFq4QeOnRmN2DJnld2KDxa3Mh5mvoutyRqXFhI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.BehaviourTreeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.BehaviourTreeBase.html",
+          "hash": "tTB2SEvDmtJuLYFW8gAxugLtyHYqAMrUqpEVmh8k6H0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.CompositeNode-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.CompositeNode-1.html",
+          "hash": "Re886QvJvyKaH1DmwAmM+hFt4TnILiN5wuzuDDo8t3M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.ConditionNode-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.ConditionNode-1.html",
+          "hash": "tWwSWAlwtHzLqyapVmQiiWB0KOhD2KkVyTztkelRQAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Example.AttackEnemyNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Example.AttackEnemyNode.html",
+          "hash": "Ogc3IrQ6TlWIX30gNh8mL6b6G0OUK/BdozmHrgwn3mA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.html",
+          "hash": "tIvLCSkr1cUp4ecsvP2Td7UwMon1bfF0s2kJ83dEf1U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Example.Enemy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Example.Enemy.html",
+          "hash": "N7OeFsL4CNF1cyAGPH/xjc4amky+lIU4h5WYcrZsyCw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.html",
+          "hash": "GPpUhaSESeRhLkR7lCvCYQ4Gwv18D9wnTDPJmjUBnqU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Example.GoToTargetNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Example.GoToTargetNode.html",
+          "hash": "8l5Pm8SOffB5Yw7cqA3fCD4lcCm8BrC3yz1ibNmecUU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Example.PatrolNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Example.PatrolNode.html",
+          "hash": "yE3yv0hX+uASqydMRjJS/O5iIpWUXYjwKpX0E5w2eqY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Example.PatrolSelectorNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Example.PatrolSelectorNode.html",
+          "hash": "Rzu6HYlhJnj3cI5oPl48Q6cO4D/dfvVI/tMvNnLHalw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Example.PatrolSequenceNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Example.PatrolSequenceNode.html",
+          "hash": "gmpPtJyKP+k6j9M747V53t7BmQnJ1k9vgFPCnFMSJZ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Example.Patroller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Example.Patroller.html",
+          "hash": "sFILieFXaj0c6ofrIvn6eXgQPU1OxmYqMndjg8ELvsc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Example.PatrollerBT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Example.PatrollerBT.html",
+          "hash": "LF0UoH8jIfuu6HIAMoAs7ZmlaIVoABvNRZOGOh3xv8I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Example.SharedEnemy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Example.SharedEnemy.html",
+          "hash": "02hNXxJGSP3sGgDEYK/uFZ3A32jJo5bRksnm4sptPIQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Example.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Example.html",
+          "hash": "1tMFnHnO8BTc3gF6XnpRA2cTJsJB57q+ais3yKaIM9Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Node-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Node-1.html",
+          "hash": "jVMuKO7uam7i6AVZqu2jusxUZaH/Xz9/vBUc8P3FJBU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.NodeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.NodeBase.html",
+          "hash": "27sd0iqAo9CDup+c4AbDGisGIBpltfsgqkb2gzbf/y0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.NodeState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.NodeState.html",
+          "hash": "xeaJ13+XJZ9jS68j7bUVW12YfkPh4y2fj7dSUvyhJmU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.NodeVariable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.NodeVariable-1.html",
+          "hash": "h9LVfgcYcqTsTdW0MoTh1xtUlI8CjXgz7uxlfV3PzBU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.NodeVariableBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.NodeVariableBase.html",
+          "hash": "+Xrp5BloNZ04zQqbhs8bUsutHwnJH10fWc8Ew1t0xyo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.SelectorNode-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.SelectorNode-1.html",
+          "hash": "D7EGxcxaYASn4CgZuUJ16gmgy3fqGqq9EaTwet+tdws="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.SequenceNode-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.SequenceNode-1.html",
+          "hash": "+414UAzJbTtZO6A6AZ/2rHBBGsIwMXMyqj42u1/urkc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Variables.SharedTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Variables.SharedTransform.html",
+          "hash": "Nf9wM2Veh+V18oxzaGAG/2PmtCB2UEfqHtLSo2MS4fI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.Variables.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.Variables.html",
+          "hash": "mkkdNEyIcOufJGjxhecd/IEv1TDrIfGGhI5LBmqmMXs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "_api/ESGI.BehaviourTrees.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ESGI.BehaviourTrees.html",
+          "hash": "eOOFF+rYLOCk5pF4EQDWHmHIcjv1Vmf+u//ZnBqvbyU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "_api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "zF6HgxEwMS4cQ5kw06e+3sCdybT5GSd+JBelNauNJp0="
+          "hash": "XcPJR+uDCKxNz1LX5KJPSuqpQPc9tF224HkWdKEo9s0="
         }
       },
       "is_incremental": false,
@@ -45,6 +369,13 @@
           "incrementalPhase": "build",
           "total_file_count": 1,
           "skipped_file_count": 1
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ManagedReferenceDocumentProcessor disable incremental build because last build doesn't contain version .",
+          "incrementalPhase": "build",
+          "total_file_count": 27,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
