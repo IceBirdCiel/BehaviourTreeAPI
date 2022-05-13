@@ -2,7 +2,7 @@
 using PGSauce.Core.Strings;
 using UnityEngine;
 
-namespace ESGI.BehaviourTrees.Example.Conditions
+namespace ESGI.BehaviourTrees.Example
 {
     [CreateAssetMenu(menuName = MenuPaths.Nodes + "Examples/Conditions/Enemy in melee range")]
     public class EnemyInMeleeRangeNode : ConditionNode<Patroller>

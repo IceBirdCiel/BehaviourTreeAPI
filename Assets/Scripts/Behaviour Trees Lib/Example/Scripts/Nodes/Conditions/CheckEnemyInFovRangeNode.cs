@@ -4,7 +4,7 @@ using PGSauce.Core.GlobalVariables;
 using PGSauce.Core.Strings;
 using UnityEngine;
 
-namespace ESGI.BehaviourTrees.Example.Conditions
+namespace ESGI.BehaviourTrees.Example
 {
     [CreateAssetMenu(menuName = MenuPaths.Nodes + "Examples/Conditions/Check enemy in FOV")]
     public class CheckEnemyInFovRangeNode : ConditionNode<Patroller>
