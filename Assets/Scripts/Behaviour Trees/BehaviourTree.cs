@@ -55,7 +55,28 @@ namespace ESGI.BehaviourTrees
         {
             if (startNode)
             {
+                PGDebug.Message(PGDebug.Header($"TICK {Time.frameCount}")).Log();
                 startNode.Update();
+                if (startNode.IsRunningLastChild)
+                {
+                    ResetTree();
+                }
+            }
+        }
+
+        private void ResetTree()
+        {
+            foreach (var node in _nodes)
+            {
+                if (node == startNode.LastChild)
+                {
+                    if (node.State == NodeState.Running)
+                    {
+                        continue;
+                    }
+                }
+                
+                node.State = NodeState.NotExecuted;
             }
         }
 

@@ -2540,5 +2540,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Patroller BT
       objectReference: {fileID: 0}
+    - target: {fileID: 8513883105603603911, guid: 839fc34a7a99e6d4c9b4ce62f1c096f1, type: 3}
+      propertyPath: startNode
+      value: 
+      objectReference: {fileID: 11400000, guid: d595e273175fc27418a070dd5462bc83, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 839fc34a7a99e6d4c9b4ce62f1c096f1, type: 3}

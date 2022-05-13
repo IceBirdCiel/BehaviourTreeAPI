@@ -9,10 +9,11 @@ namespace ESGI.BehaviourTrees
         protected override void OnExecutionEnd()
         {
             base.OnExecutionEnd();
+            /*
             foreach (var child in Children)
             {
                 child.State = NodeState.NotExecuted;
-            }
+            }*/
         }
     }
 }
