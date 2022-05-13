@@ -44,7 +44,6 @@ MonoBehaviour:
     - Sirenix.OdinInspector.CompatibilityLayer
     - Animancer.FSM
     - LoadingScreen.Misc
-    - AmplifyShaderEditor
     - Dreamteck.Splines.Editor
     - ShapesEditor
     - Sirenix.OdinInspector.CompatibilityLayer.Editor
@@ -54,6 +53,7 @@ MonoBehaviour:
     - LeTai.TrueShadow.Editor
     - PlayFabSDKEditor
     - Sirenix.OdinInspector.Modules.UnityMathematics
+    - AmplifyShaderEditor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1

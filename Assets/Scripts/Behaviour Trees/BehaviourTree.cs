@@ -57,7 +57,7 @@ namespace ESGI.BehaviourTrees
             {
                 PGDebug.Message(PGDebug.Header($"TICK {Time.frameCount}")).Log();
                 startNode.Update();
-                if (startNode.IsRunningLastChild)
+                if (startNode.IsRunningLastChild || startNode.State == NodeState.Failure || startNode.State == NodeState.Success)
                 {
                     ResetTree();
                 }

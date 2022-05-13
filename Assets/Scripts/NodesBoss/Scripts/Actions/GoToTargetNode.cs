@@ -32,6 +32,10 @@ public class GoToTargetNode : ActionNode<Boss>
                     Agent.speed * Time.deltaTime);
             
         }
+        else
+        {
+            return NodeState.Failure;
+        }
         return NodeState.Running;
     }
 }

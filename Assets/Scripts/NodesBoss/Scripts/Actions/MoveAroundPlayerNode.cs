@@ -20,15 +20,14 @@ public class MoveAroundPlayerNode : ActionNode<Boss>
         {
             return NodeState.Running;
         }
-        else if(timer < 10)
+
+        if(timer < 10)
         {
             MoveAroundPlayerRight(target);
             return NodeState.Running;
         }
-        else
-        {
-            timer = 0;
-        }
+
+        timer = 0;
         return NodeState.Success;
     }
 
