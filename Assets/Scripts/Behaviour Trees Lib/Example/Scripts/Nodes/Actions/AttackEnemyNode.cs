@@ -7,6 +7,9 @@ using UnityEngine;
 
 namespace ESGI.BehaviourTrees.Example
 {
+    /// <summary>
+    /// Action Node to attack en enemy
+    /// </summary>
     [CreateAssetMenu(menuName = MenuPaths.Nodes + "Examples/Actions/Attack Enemy")]
     public class AttackEnemyNode : ActionNode<Patroller>
     {

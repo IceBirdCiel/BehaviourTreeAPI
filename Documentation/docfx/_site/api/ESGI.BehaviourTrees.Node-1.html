@@ -109,40 +109,14 @@
   </h3>
   
   
-  <a id="ESGI_BehaviourTrees_Node_1__children_" data-uid="ESGI.BehaviourTrees.Node`1._children*"></a>
-  <h4 id="ESGI_BehaviourTrees_Node_1__children" data-uid="ESGI.BehaviourTrees.Node`1._children">_children</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override List&lt;NodeBase&gt; _children { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="ESGI.BehaviourTrees.NodeBase.html">NodeBase</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="ESGI.BehaviourTrees.NodeBase.html#ESGI_BehaviourTrees_NodeBase__children">NodeBase._children</a></div>
-  
-  
   <a id="ESGI_BehaviourTrees_Node_1_Agent_" data-uid="ESGI.BehaviourTrees.Node`1.Agent*"></a>
   <h4 id="ESGI_BehaviourTrees_Node_1_Agent" data-uid="ESGI.BehaviourTrees.Node`1.Agent">Agent</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The agent being controlled by this BT.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TAgent Agent { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected TAgent Agent { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -163,7 +137,8 @@
   
   <a id="ESGI_BehaviourTrees_Node_1_Children_" data-uid="ESGI.BehaviourTrees.Node`1.Children*"></a>
   <h4 id="ESGI_BehaviourTrees_Node_1_Children" data-uid="ESGI.BehaviourTrees.Node`1.Children">Children</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The children of the Node. The order is important : Left is executed first in the BT.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -188,7 +163,9 @@
   
   <a id="ESGI_BehaviourTrees_Node_1_IsRunningLastChild_" data-uid="ESGI.BehaviourTrees.Node`1.IsRunningLastChild*"></a>
   <h4 id="ESGI_BehaviourTrees_Node_1_IsRunningLastChild" data-uid="ESGI.BehaviourTrees.Node`1.IsRunningLastChild">IsRunningLastChild</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>If the Node has children, returns true if the most right node in the
+children list is running.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -213,7 +190,8 @@
   
   <a id="ESGI_BehaviourTrees_Node_1_LastChild_" data-uid="ESGI.BehaviourTrees.Node`1.LastChild*"></a>
   <h4 id="ESGI_BehaviourTrees_Node_1_LastChild" data-uid="ESGI.BehaviourTrees.Node`1.LastChild">LastChild</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>If has children, returns it. Else returns the Node itself.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -236,34 +214,10 @@
   </table>
   
   
-  <a id="ESGI_BehaviourTrees_Node_1_Parent_" data-uid="ESGI.BehaviourTrees.Node`1.Parent*"></a>
-  <h4 id="ESGI_BehaviourTrees_Node_1_Parent" data-uid="ESGI.BehaviourTrees.Node`1.Parent">Parent</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected Node&lt;TAgent&gt; Parent { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ESGI.BehaviourTrees.Node-1.html">Node</a>&lt;TAgent&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="ESGI_BehaviourTrees_Node_1_State_" data-uid="ESGI.BehaviourTrees.Node`1.State*"></a>
   <h4 id="ESGI_BehaviourTrees_Node_1_State" data-uid="ESGI.BehaviourTrees.Node`1.State">State</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The current state of the Node.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -284,66 +238,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="ESGI_BehaviourTrees_Node_1_states_" data-uid="ESGI.BehaviourTrees.Node`1.states*"></a>
-  <h4 id="ESGI_BehaviourTrees_Node_1_states" data-uid="ESGI.BehaviourTrees.Node`1.states">states</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override NodeState states { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ESGI.BehaviourTrees.NodeState.html">NodeState</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="ESGI.BehaviourTrees.NodeBase.html#ESGI_BehaviourTrees_NodeBase_states">NodeBase.states</a></div>
-  
-  
-  <a id="ESGI_BehaviourTrees_Node_1_Tree_" data-uid="ESGI.BehaviourTrees.Node`1.Tree*"></a>
-  <h4 id="ESGI_BehaviourTrees_Node_1_Tree" data-uid="ESGI.BehaviourTrees.Node`1.Tree">Tree</h4>
-  <div class="markdown level1 summary"><p>The tree owning this node</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BehaviourTree&lt;TAgent&gt; Tree { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ESGI.BehaviourTrees.BehaviourTree-1.html">BehaviourTree</a>&lt;TAgent&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="ESGI_BehaviourTrees_Node_1_DrawGizmos_" data-uid="ESGI.BehaviourTrees.Node`1.DrawGizmos*"></a>
   <h4 id="ESGI_BehaviourTrees_Node_1_DrawGizmos" data-uid="ESGI.BehaviourTrees.Node`1.DrawGizmos">DrawGizmos()</h4>
-  <div class="markdown level1 summary"><p>Called in Editor to Draw Gizmos</p>
+  <div class="markdown level1 summary"><p>Called in Editor to Draw Gizmos.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -354,7 +255,7 @@
   
   <a id="ESGI_BehaviourTrees_Node_1_Init_" data-uid="ESGI.BehaviourTrees.Node`1.Init*"></a>
   <h4 id="ESGI_BehaviourTrees_Node_1_Init_ESGI_BehaviourTrees_BehaviourTree__0__" data-uid="ESGI.BehaviourTrees.Node`1.Init(ESGI.BehaviourTrees.BehaviourTree{`0})">Init(BehaviourTree&lt;TAgent&gt;)</h4>
-  <div class="markdown level1 summary"><p>Called by the BT</p>
+  <div class="markdown level1 summary"><p>Called by the BT, once at the initialization. Sets the State to NotExecuted.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -374,7 +275,8 @@
       <tr>
         <td><a class="xref" href="ESGI.BehaviourTrees.BehaviourTree-1.html">BehaviourTree</a>&lt;TAgent&gt;</td>
         <td><span class="parametername">behaviourTree</span></td>
-        <td></td>
+        <td><p>The tree owning this Node</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -382,7 +284,8 @@
   
   <a id="ESGI_BehaviourTrees_Node_1_OnBeforeExecute_" data-uid="ESGI.BehaviourTrees.Node`1.OnBeforeExecute*"></a>
   <h4 id="ESGI_BehaviourTrees_Node_1_OnBeforeExecute" data-uid="ESGI.BehaviourTrees.Node`1.OnBeforeExecute">OnBeforeExecute()</h4>
-  <div class="markdown level1 summary"><p>Called before the execution of the node, used to setup data that needs to be reset from the previous execution</p>
+  <div class="markdown level1 summary"><p>Called before the execution of the node, used to setup data that needs to be reset from
+the previous execution of the Node. Can be overriden.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -394,7 +297,8 @@
   <a id="ESGI_BehaviourTrees_Node_1_OnExecutionEnd_" data-uid="ESGI.BehaviourTrees.Node`1.OnExecutionEnd*"></a>
   <h4 id="ESGI_BehaviourTrees_Node_1_OnExecutionEnd" data-uid="ESGI.BehaviourTrees.Node`1.OnExecutionEnd">OnExecutionEnd()</h4>
   <div class="markdown level1 summary"><p>u
-Called at the end of the execution, on Success or Fail</p>
+Called at the end of the execution : on Success or Fail.
+Override this to do stuff on the Node once we update the next node.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -405,7 +309,8 @@ Called at the end of the execution, on Success or Fail</p>
   
   <a id="ESGI_BehaviourTrees_Node_1_OnInit_" data-uid="ESGI.BehaviourTrees.Node`1.OnInit*"></a>
   <h4 id="ESGI_BehaviourTrees_Node_1_OnInit" data-uid="ESGI.BehaviourTrees.Node`1.OnInit">OnInit()</h4>
-  <div class="markdown level1 summary"><p>Called only once, once the behaviour tree is initialized</p>
+  <div class="markdown level1 summary"><p>Called only once, once the behaviour tree is initialized.
+Override this. Can be considered as the Node constructor.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -416,7 +321,8 @@ Called at the end of the execution, on Success or Fail</p>
   
   <a id="ESGI_BehaviourTrees_Node_1_OnUpdate_" data-uid="ESGI.BehaviourTrees.Node`1.OnUpdate*"></a>
   <h4 id="ESGI_BehaviourTrees_Node_1_OnUpdate" data-uid="ESGI.BehaviourTrees.Node`1.OnUpdate">OnUpdate()</h4>
-  <div class="markdown level1 summary"><p>Called each frame during the task execution</p>
+  <div class="markdown level1 summary"><p>Called each frame during the task execution. Override this to define the behaviour
+of the node.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -443,7 +349,8 @@ Called at the end of the execution, on Success or Fail</p>
   
   <a id="ESGI_BehaviourTrees_Node_1_Update_" data-uid="ESGI.BehaviourTrees.Node`1.Update*"></a>
   <h4 id="ESGI_BehaviourTrees_Node_1_Update" data-uid="ESGI.BehaviourTrees.Node`1.Update">Update()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Called to tick the Node. If the State is already Success or Failure does not do anything.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -460,7 +367,8 @@ Called at the end of the execution, on Success or Fail</p>
     <tbody>
       <tr>
         <td><a class="xref" href="ESGI.BehaviourTrees.NodeState.html">NodeState</a></td>
-        <td></td>
+        <td><p>The state of the node at the end of the tick.</p>
+</td>
       </tr>
     </tbody>
   </table>

@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace ESGI.BehaviourTrees.Example
 {
+    /// <summary>
+    /// Check if the target Enemy is in range. If true, update the SharedEnemy value.
+    /// </summary>
     [CreateAssetMenu(menuName = MenuPaths.Nodes + "Examples/Conditions/Enemy in melee range")]
     public class EnemyInMeleeRangeNode : ConditionNode<Patroller>
     {

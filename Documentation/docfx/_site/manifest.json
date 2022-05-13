@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.ActionNode-1.html",
-          "hash": "SupZVxAJsIdGdFJmuTLhD7k7fnYPeoj3xtdW1SQ2ElU="
+          "hash": "6coEUiMRfL8hG0SK+LErhalfgGZfaywLmEQP/gjrvzk="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.BehaviourTree-1.html",
-          "hash": "eITWylFq4QeOnRmN2DJnld2KDxa3Mh5mvoutyRqXFhI="
+          "hash": "9UbWMJtjkjLwHmclOW1rgYp/f0NZYYn0MljPTpRV9Ro="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.BehaviourTreeBase.html",
-          "hash": "tTB2SEvDmtJuLYFW8gAxugLtyHYqAMrUqpEVmh8k6H0="
+          "hash": "dL4nVLy7UaJxTEfrVj9zqLheWSnOS+NaTpo2mON18s8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.CompositeNode-1.html",
-          "hash": "Re886QvJvyKaH1DmwAmM+hFt4TnILiN5wuzuDDo8t3M="
+          "hash": "nwkRgg2yUXsWjejcPQVkfLjPmrzbKJD76rkAbaAOwIw="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.ConditionNode-1.html",
-          "hash": "tWwSWAlwtHzLqyapVmQiiWB0KOhD2KkVyTztkelRQAU="
+          "hash": "n1fboiRpP/ywLsF59SjCHuxNMn7Qy5p2bZL0nCjEpXs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Example.AttackEnemyNode.html",
-          "hash": "Ogc3IrQ6TlWIX30gNh8mL6b6G0OUK/BdozmHrgwn3mA="
+          "hash": "8tG3AsQ4o3pvm7lM7a3xDlxPXqw5frqnzc/FFhrVXpg="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.html",
-          "hash": "tIvLCSkr1cUp4ecsvP2Td7UwMon1bfF0s2kJ83dEf1U="
+          "hash": "nNlvH+Bx5D/i8whfddhU1itGItihunk6RJxmgjgzkwc="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Example.Enemy.html",
-          "hash": "N7OeFsL4CNF1cyAGPH/xjc4amky+lIU4h5WYcrZsyCw="
+          "hash": "dOxFcXyutmWiBmhej6V+Nm73mMazIh/nW2+aPKgndmM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.html",
-          "hash": "GPpUhaSESeRhLkR7lCvCYQ4Gwv18D9wnTDPJmjUBnqU="
+          "hash": "RcJsvIVw7cIGs2CdGXL7c3mwYb62pFQFL0QdDUdghzE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Example.GoToTargetNode.html",
-          "hash": "8l5Pm8SOffB5Yw7cqA3fCD4lcCm8BrC3yz1ibNmecUU="
+          "hash": "jfr8eQjTQcLT3e0P0xM+L0cpB1FZlMYuwoOm3ck1xrA="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Example.PatrolNode.html",
-          "hash": "yE3yv0hX+uASqydMRjJS/O5iIpWUXYjwKpX0E5w2eqY="
+          "hash": "ZsDXkSgMNNS198LkLgXQ7fsvgpenTNClksMZanCZUW0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Example.PatrolSelectorNode.html",
-          "hash": "Rzu6HYlhJnj3cI5oPl48Q6cO4D/dfvVI/tMvNnLHalw="
+          "hash": "y2h0tNCQg776ELh/gXg+lT35AVLjvykSwSHuoSJ2efY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Example.PatrolSequenceNode.html",
-          "hash": "gmpPtJyKP+k6j9M747V53t7BmQnJ1k9vgFPCnFMSJZ4="
+          "hash": "IUgsZvHnkV89b5gMlJk6rKoURGCf9j+Ppb3nuWj8n7c="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Example.Patroller.html",
-          "hash": "sFILieFXaj0c6ofrIvn6eXgQPU1OxmYqMndjg8ELvsc="
+          "hash": "ciw+YmZUfVRA3VJTSgmysw6fILpGYMEKaKSlmzIqJrE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Example.PatrollerBT.html",
-          "hash": "LF0UoH8jIfuu6HIAMoAs7ZmlaIVoABvNRZOGOh3xv8I="
+          "hash": "SnDL90Jl9WprFRNKE8ZdpHoaOU6Qxm6wv/KlAtY5CkI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Example.SharedEnemy.html",
-          "hash": "02hNXxJGSP3sGgDEYK/uFZ3A32jJo5bRksnm4sptPIQ="
+          "hash": "SYJ1yVNZJbiMGi4eIHRLvvZfusfiFwHqGOm67HcwWmo="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -201,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Example.html",
-          "hash": "1tMFnHnO8BTc3gF6XnpRA2cTJsJB57q+ais3yKaIM9Y="
+          "hash": "3wzpURgbIQhUBJdVgivt560itag0u0kmUZcJ0it/egA="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Node-1.html",
-          "hash": "jVMuKO7uam7i6AVZqu2jusxUZaH/Xz9/vBUc8P3FJBU="
+          "hash": "pCYarpd+j5tgmJaf7qIDtuYQfANbp7FU+yh2/Q+vF/0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -225,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.NodeBase.html",
-          "hash": "27sd0iqAo9CDup+c4AbDGisGIBpltfsgqkb2gzbf/y0="
+          "hash": "lJbrDM6AzfLO58uSJBVuS6201J2vCxsg+1zh5L4Uf1E="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -240,7 +240,7 @@
           "hash": "xeaJ13+XJZ9jS68j7bUVW12YfkPh4y2fj7dSUvyhJmU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -249,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.NodeVariable-1.html",
-          "hash": "h9LVfgcYcqTsTdW0MoTh1xtUlI8CjXgz7uxlfV3PzBU="
+          "hash": "hltLSgQlYDa5hS6+NOsvBmYGmfDoGcz5ak3u2xt39mQ="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -261,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.NodeVariableBase.html",
-          "hash": "+Xrp5BloNZ04zQqbhs8bUsutHwnJH10fWc8Ew1t0xyo="
+          "hash": "+HmDO4I/RFp6UppNKcdOPPk6b2wzFV/S+Q+kCL/fyFI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.SelectorNode-1.html",
-          "hash": "D7EGxcxaYASn4CgZuUJ16gmgy3fqGqq9EaTwet+tdws="
+          "hash": "WCnvRDKq41fjWv4ktaSuQbpWlE2GfOdtd+CSddze29M="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.SequenceNode-1.html",
-          "hash": "+414UAzJbTtZO6A6AZ/2rHBBGsIwMXMyqj42u1/urkc="
+          "hash": "GNtyFJR8uR46re50rs588+eHJovfx+qL9EZ0ORk9WYg="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Variables.SharedTransform.html",
-          "hash": "Nf9wM2Veh+V18oxzaGAG/2PmtCB2UEfqHtLSo2MS4fI="
+          "hash": "HK0hGyoVzbicGvGeHCz1JZBpipcHyeMJdVTypHwZt30="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -309,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.Variables.html",
-          "hash": "mkkdNEyIcOufJGjxhecd/IEv1TDrIfGGhI5LBmqmMXs="
+          "hash": "E3GVwrd63UcJj+qUzF/XDDhDUmwr0yru8FeU+LXMOVM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ESGI.BehaviourTrees.html",
-          "hash": "eOOFF+rYLOCk5pF4EQDWHmHIcjv1Vmf+u//ZnBqvbyU="
+          "hash": "9y6kMbP8jMZ8jpKLlB6FgLJL+6bvxr2OJ1MEfF6I164="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -348,10 +348,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "sL1LbEtmlcFAj4FADaHEwky8y0O3XMnDjtCKzyl6vvw="
+          "hash": "i2TDhQqndtcRSomZB5x1Wi7i6nDc3kNtmKkfYPfWWCk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     }
   ],
@@ -368,14 +368,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 1,
-          "skipped_file_count": 1
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ManagedReferenceDocumentProcessor disable incremental build because last build doesn't contain version .",
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 27,
-          "skipped_file_count": 0
+          "skipped_file_count": 27
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace ESGI.BehaviourTrees.Example
 {
+    /// <summary>
+    /// Make the patroller move to the target transform
+    /// </summary>
     [CreateAssetMenu(menuName = MenuPaths.Nodes + "Examples/Actions/Go to target")]
     public class GoToTargetNode : ActionNode<Patroller>
     {

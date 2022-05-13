@@ -6,6 +6,9 @@ using PGSauce.Unity;
 
 namespace ESGI.BehaviourTrees.Example
 {
+    /// <summary>
+    /// Empty class to give the Enemy type to an object. 
+    /// </summary>
     public class Enemy : PGMonoBehaviour
     {
         #region Public And Serialized Fields

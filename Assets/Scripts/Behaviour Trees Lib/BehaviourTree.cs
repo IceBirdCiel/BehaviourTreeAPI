@@ -28,9 +28,9 @@ namespace ESGI.BehaviourTrees
 
         /// <summary>
         /// Checks if the Agent is null, if not tries to get it. If still null, logs an
-        /// error.
+        /// error. 
         /// </summary>
-        protected void Awake()
+        protected sealed override void Awake()
         {
             if (Agent == null)
             {
@@ -43,27 +43,18 @@ namespace ESGI.BehaviourTrees
             }
         }
 
-        protected void Start()
+        /// <summary>
+        /// Starts the tree
+        /// </summary>
+        protected sealed override void Start()
         {
             ActivateBehaviourTree();
         }
-
-        protected void OnDisable()
-        {
-            DeactivateBehaviourTree();
-        }
-
-        protected void OnEnable()
-        {
-            ActivateBehaviourTree();
-        }
-
-        protected void OnDestroy()
-        {
-            DeactivateBehaviourTree();
-        }
-
-        protected void Update()
+        
+        /// <summary>
+        /// Ticks the nodes. The tree resets if the node is the last one to be ticked.
+        /// </summary>
+        protected sealed override void Update()
         {
             if (startNode)
             {
@@ -74,6 +65,22 @@ namespace ESGI.BehaviourTrees
                     ResetTree();
                 }
             }
+        }
+        
+        /// <summary>
+        /// Draws each node's Gizmos (only in Editor).
+        /// </summary>
+        protected sealed override void OnDrawGizmos()
+        {
+#if UNITY_EDITOR
+            if (Application.isPlaying && _nodes != null)
+            {
+                foreach (var node in _nodes)
+                {
+                    node.DrawGizmos();
+                }
+            }
+#endif
         }
 
         private void ResetTree()
@@ -90,23 +97,6 @@ namespace ESGI.BehaviourTrees
                 
                 node.State = NodeState.NotExecuted;
             }
-        }
-
-        protected void OnDrawGizmos()
-        {
-#if UNITY_EDITOR
-            if (Application.isPlaying && _nodes != null)
-            {
-                foreach (var node in _nodes)
-                {
-                    node.DrawGizmos();
-                }
-            }
-#endif
-        }
-
-        private void DeactivateBehaviourTree()
-        {
         }
 
         private void ActivateBehaviourTree()

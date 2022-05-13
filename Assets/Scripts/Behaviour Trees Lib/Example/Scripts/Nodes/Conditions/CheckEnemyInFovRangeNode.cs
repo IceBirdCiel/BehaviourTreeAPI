@@ -6,6 +6,9 @@ using UnityEngine;
 
 namespace ESGI.BehaviourTrees.Example
 {
+    /// <summary>
+    /// Check if the target Transform is in range. If true, update the SharedData value.
+    /// </summary>
     [CreateAssetMenu(menuName = MenuPaths.Nodes + "Examples/Conditions/Check enemy in FOV")]
     public class CheckEnemyInFovRangeNode : ConditionNode<Patroller>
     {

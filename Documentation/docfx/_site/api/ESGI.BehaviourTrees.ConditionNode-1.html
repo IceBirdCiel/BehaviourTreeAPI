@@ -73,7 +73,9 @@
   
   <h1 id="ESGI_BehaviourTrees_ConditionNode_1" data-uid="ESGI.BehaviourTrees.ConditionNode`1" class="text-break">Class ConditionNode&lt;TAgent&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Nodes do not modify the state of the world. They are used to check if something is true or not.
+They can take multiple frames to return the value if they return NodeState.Running.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -84,26 +86,10 @@
       <div class="level4"><a class="xref" href="ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.html">CheckEnemyInFovRangeNode</a></div>
       <div class="level4"><a class="xref" href="ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.html">EnemyInMeleeRangeNode</a></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">ConditionNodeBase</span></div>
-  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1__children">Node&lt;TAgent&gt;._children</a>
-    </div>
-    <div>
-      <a class="xref" href="ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_states">Node&lt;TAgent&gt;.states</a>
-    </div>
-    <div>
-      <a class="xref" href="ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Tree">Node&lt;TAgent&gt;.Tree</a>
-    </div>
-    <div>
       <a class="xref" href="ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Agent">Node&lt;TAgent&gt;.Agent</a>
-    </div>
-    <div>
-      <a class="xref" href="ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Parent">Node&lt;TAgent&gt;.Parent</a>
     </div>
     <div>
       <a class="xref" href="ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_State">Node&lt;TAgent&gt;.State</a>
@@ -143,7 +129,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="ESGI_BehaviourTrees_ConditionNode_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ConditionNode&lt;TAgent&gt; : Node&lt;TAgent&gt;, ConditionNodeBase where TAgent : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ConditionNode&lt;TAgent&gt; : Node&lt;TAgent&gt; where TAgent : MonoBehaviour</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -156,14 +142,11 @@
     <tbody>
       <tr>
         <td><span class="parametername">TAgent</span></td>
-        <td></td>
+        <td><p>The type of Agent being controlled by the BT.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">ConditionNodeBase</span>
-  </div>
 </article>
           </div>
           

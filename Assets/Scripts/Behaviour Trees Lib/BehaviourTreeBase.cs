@@ -10,5 +10,34 @@ namespace ESGI.BehaviourTrees
     /// </summary>
     public abstract class BehaviourTreeBase : MonoBehaviour
     {
+        /// <summary>
+        /// Init the BT.
+        /// </summary>
+        protected virtual void Awake()
+        {
+        }
+        
+        /// <summary>
+        /// Starts the BT
+        /// </summary>
+        protected virtual void Start()
+        {
+        }
+        
+        /// <summary>
+        /// Updates the tree
+        /// </summary>
+        protected virtual void Update()
+        {
+            
+        }
+        
+        /// <summary>
+        /// Draw each node gizmos
+        /// </summary>
+        protected virtual void OnDrawGizmos()
+        {
+
+        }
     }
 }

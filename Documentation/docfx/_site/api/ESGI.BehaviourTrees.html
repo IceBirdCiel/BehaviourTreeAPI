@@ -81,22 +81,29 @@
       <section><p>A node that modifies the state of the world</p>
 </section>
       <h4><a class="xref" href="ESGI.BehaviourTrees.BehaviourTree-1.html">BehaviourTree&lt;TAgent&gt;</a></h4>
-      <section></section>
+      <section><p>The class to derive from to create a Behaviour Tree. It is a MonoBehaviour.</p>
+</section>
       <h4><a class="xref" href="ESGI.BehaviourTrees.BehaviourTreeBase.html">BehaviourTreeBase</a></h4>
-      <section></section>
+      <section><p>Non generic version of the BT.</p>
+</section>
       <h4><a class="xref" href="ESGI.BehaviourTrees.CompositeNode-1.html">CompositeNode&lt;TAgent&gt;</a></h4>
-      <section></section>
+      <section><p>Sequences and Selectors inherits this class.</p>
+</section>
       <h4><a class="xref" href="ESGI.BehaviourTrees.ConditionNode-1.html">ConditionNode&lt;TAgent&gt;</a></h4>
-      <section></section>
+      <section><p>Nodes do not modify the state of the world. They are used to check if something is true or not.
+They can take multiple frames to return the value if they return NodeState.Running.</p>
+</section>
       <h4><a class="xref" href="ESGI.BehaviourTrees.Node-1.html">Node&lt;TAgent&gt;</a></h4>
       <section></section>
       <h4><a class="xref" href="ESGI.BehaviourTrees.NodeBase.html">NodeBase</a></h4>
-      <section></section>
+      <section><p>Non Generic version of the nodes. They are Scriptable Objects.</p>
+</section>
       <h4><a class="xref" href="ESGI.BehaviourTrees.NodeVariable-1.html">NodeVariable&lt;T&gt;</a></h4>
       <section><p>The generic version of <see cref="T:ESGI.BehaviourTrees.NodeVariableBase"></see> (NodeVariableBase)</p>
 </section>
       <h4><a class="xref" href="ESGI.BehaviourTrees.NodeVariableBase.html">NodeVariableBase</a></h4>
-      <section><p>A variable wrapper to share between nodes</p>
+      <section><p>A variable wrapper to share data between nodes. It is a Scriptable Object.
+Don't forget to reset it when needed.</p>
 </section>
       <h4><a class="xref" href="ESGI.BehaviourTrees.SelectorNode-1.html">SelectorNode&lt;TAgent&gt;</a></h4>
       <section><p>OR logic gate : the node succeeds if one of the children succeeds</p>

@@ -3,9 +3,11 @@ using System.Collections.Generic;
 
 namespace ESGI.BehaviourTrees
 {
+    /// <summary>
+    /// Non Generic version of the nodes. They are Scriptable Objects.
+    /// </summary>
     public abstract class NodeBase : ScriptableObject
     {
-        public abstract List<NodeBase> _children { get;}
-        public abstract NodeState states { get; }
+        
     }
 }

@@ -73,7 +73,8 @@
   
   <h1 id="ESGI_BehaviourTrees_BehaviourTree_1" data-uid="ESGI.BehaviourTrees.BehaviourTree`1" class="text-break">Class BehaviourTree&lt;TAgent&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>The class to derive from to create a Behaviour Tree. It is a MonoBehaviour.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -99,7 +100,8 @@
     <tbody>
       <tr>
         <td><span class="parametername">TAgent</span></td>
-        <td></td>
+        <td><p>The type of the agent being controlled by the tree (Boss, Enemy etc.)</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -107,34 +109,10 @@
   </h3>
   
   
-  <a id="ESGI_BehaviourTrees_BehaviourTree_1_Activated_" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.Activated*"></a>
-  <h4 id="ESGI_BehaviourTrees_BehaviourTree_1_Activated" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.Activated">Activated</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Activated { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="ESGI_BehaviourTrees_BehaviourTree_1_Agent_" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.Agent*"></a>
   <h4 id="ESGI_BehaviourTrees_BehaviourTree_1_Agent" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.Agent">Agent</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A reference to the MonoBehaviour being controlled by this BT.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -155,132 +133,61 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="ESGI_BehaviourTrees_BehaviourTree_1_CurrentNode_" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.CurrentNode*"></a>
-  <h4 id="ESGI_BehaviourTrees_BehaviourTree_1_CurrentNode" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.CurrentNode">CurrentNode</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override NodeBase CurrentNode { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ESGI.BehaviourTrees.NodeBase.html">NodeBase</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_CurrentNode">BehaviourTreeBase.CurrentNode</a></div>
-  
-  
-  <a id="ESGI_BehaviourTrees_BehaviourTree_1_root_" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.root*"></a>
-  <h4 id="ESGI_BehaviourTrees_BehaviourTree_1_root" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.root">root</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override NodeBase root { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ESGI.BehaviourTrees.NodeBase.html">NodeBase</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_root">BehaviourTreeBase.root</a></div>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="ESGI_BehaviourTrees_BehaviourTree_1_Awake_" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.Awake*"></a>
   <h4 id="ESGI_BehaviourTrees_BehaviourTree_1_Awake" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.Awake">Awake()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if the Agent is null, if not tries to get it. If still null, logs an
+error.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void Awake()</code></pre>
+    <pre><code class="lang-csharp hljs">protected sealed override void Awake()</code></pre>
   </div>
-  
-  
-  <a id="ESGI_BehaviourTrees_BehaviourTree_1_OnDestroy_" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.OnDestroy*"></a>
-  <h4 id="ESGI_BehaviourTrees_BehaviourTree_1_OnDestroy" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.OnDestroy">OnDestroy()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void OnDestroy()</code></pre>
-  </div>
-  
-  
-  <a id="ESGI_BehaviourTrees_BehaviourTree_1_OnDisable_" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.OnDisable*"></a>
-  <h4 id="ESGI_BehaviourTrees_BehaviourTree_1_OnDisable" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.OnDisable">OnDisable()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void OnDisable()</code></pre>
-  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Awake">BehaviourTreeBase.Awake()</a></div>
   
   
   <a id="ESGI_BehaviourTrees_BehaviourTree_1_OnDrawGizmos_" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.OnDrawGizmos*"></a>
   <h4 id="ESGI_BehaviourTrees_BehaviourTree_1_OnDrawGizmos" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.OnDrawGizmos">OnDrawGizmos()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Draws each node's Gizmos (only in Editor).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void OnDrawGizmos()</code></pre>
+    <pre><code class="lang-csharp hljs">protected sealed override void OnDrawGizmos()</code></pre>
   </div>
-  
-  
-  <a id="ESGI_BehaviourTrees_BehaviourTree_1_OnEnable_" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.OnEnable*"></a>
-  <h4 id="ESGI_BehaviourTrees_BehaviourTree_1_OnEnable" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.OnEnable">OnEnable()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void OnEnable()</code></pre>
-  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_OnDrawGizmos">BehaviourTreeBase.OnDrawGizmos()</a></div>
   
   
   <a id="ESGI_BehaviourTrees_BehaviourTree_1_Start_" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.Start*"></a>
   <h4 id="ESGI_BehaviourTrees_BehaviourTree_1_Start" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.Start">Start()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Starts the tree</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void Start()</code></pre>
+    <pre><code class="lang-csharp hljs">protected sealed override void Start()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Start">BehaviourTreeBase.Start()</a></div>
   
   
   <a id="ESGI_BehaviourTrees_BehaviourTree_1_Update_" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.Update*"></a>
   <h4 id="ESGI_BehaviourTrees_BehaviourTree_1_Update" data-uid="ESGI.BehaviourTrees.BehaviourTree`1.Update">Update()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Ticks the nodes. The tree resets if the node is the last one to be ticked.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void Update()</code></pre>
+    <pre><code class="lang-csharp hljs">protected sealed override void Update()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Update">BehaviourTreeBase.Update()</a></div>
 </article>
           </div>
           

@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>API </title>
+    <title>Documentation des Behaviour Tree : C&#233;dric CHOPIN, Etienne GIBIAT, Nicolas RUCHE </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="API ">
+    <meta name="title" content="Documentation des Behaviour Tree : C&#233;dric CHOPIN, Etienne GIBIAT, Nicolas RUCHE ">
     <meta name="generator" content="docfx 2.59.2.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -60,9 +60,41 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="api">API</h1>
+<h1 id="documentation-des-behaviour-tree--cédric-chopin-etienne-gibiat-nicolas-ruche">Documentation des Behaviour Tree : Cédric CHOPIN, Etienne GIBIAT, Nicolas RUCHE</h1>
 
-<p>Go to <a href="api/toc.html">API</a>.</p>
+<h2 id="api">API</h2>
+<p>Voir l'<a href="api/toc.html">API</a> de tous les scripts.</p>
+<h2 id="construire-un-behaviour-tree-dans-unity">Construire un Behaviour Tree dans Unity</h2>
+<ol>
+<li><p><strong>Ajout des scripts</strong>
+L'IA doit posséder son script basique (par exemple Boss) ainsi qu'un script qui va gerer le BehaviourTree (Par exemple BossBT).
+Le script BossBT doit hériter de BehaviourTree avec comme template le script de l'IA (public class BossBT : BehaviourTree<span>&lt;Boss</span>&gt;)</p>
+</li>
+<li><p><strong>Construction des Nodes principaux</strong></p>
+<p>Il est nécessaire de construire les noeuds principaux de notre BehaviourTree, à savoir le root ainsi que les séquences.
+Pour cela il suffit de faire créer un scriptable object à partir du menu ESGI/Nodes/SELECTOR qui sera notre Selector ROOT.
+Ce noeud sera a ajouté au niveau du Start Node du BT.
+Ensuite, les séquences sont créées en utilisant le menu contextuel. Elles determinent l'ordre d'action que l'on veut obtenir pour notre IA.
+Il est nécessaire de creer les Node Sequence et Selector en dérivant les classes SelectorNode et SequenceNode spécifiques à notre agent.</p>
+</li>
+<li><p><strong>Conditions Node</strong></p>
+<p>Le conditions node est un noeud permettant de gérer les conditions (Est-ce que le joueur est à portée, est-ce que j'ai assez de vie,etc..). Pour cela il faut créer un script qui hérite de ConditionsNode et qui override la fonction OnUpdate. Elle doit retourner Success si la condition est vérifiée, Failure si non, Running si le node a besoin de plus de temps pour vérifier la condition. Un scriptable object est ensuite à créer à partir de ce script pour être donné dans le Tree.</p>
+</li>
+<li><p><strong>Actions Node</strong></p>
+<p>Les actions Node sont des Nodes qui modifient le Monde : position d'un objet par exemple. Il faut hériter de ActionNode. Tant que l'action est en cours la méthode OnUpdate doit renvoyer Running. Si l'action est réussie elle doit renvoyer Success, Failure sinon.</p>
+</li>
+<li><p><strong>Créer le Tree</strong>
+Dans la scène, on glisse le script Behaviour Tree spécifique à notre objet (Boss par exemple). Il a besoin d'une référence à cet objet. On crée l'arbre en glissant des Nodes créés dans l'éditeur (rappel : se sont des scriptable objects.) dans le Behaviour Tree.</p>
+</li>
+<li><p><strong>Methodes des Node</strong>
+On peut override certaines méthodes des Node :</p>
+<ul>
+<li>OnBeforeExecute : Appelée avant d'utiliser le node dans le tree. Utilisée pour reset les data avant d'executer le node.</li>
+<li>OnInit : Appelée au tout début; comme un constructeur.</li>
+<li>OnExecutionEnd : Une fois que le node arrive en Failure ou State.</li>
+</ul>
+</li>
+</ol>
 </article>
           </div>
           

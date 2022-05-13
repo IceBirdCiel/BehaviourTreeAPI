@@ -73,7 +73,8 @@
   
   <h1 id="ESGI_BehaviourTrees_BehaviourTreeBase" data-uid="ESGI.BehaviourTrees.BehaviourTreeBase" class="text-break">Class BehaviourTreeBase
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Non generic version of the BT.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -87,58 +88,52 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class BehaviourTreeBase : MonoBehaviour</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="ESGI_BehaviourTrees_BehaviourTreeBase_CurrentNode_" data-uid="ESGI.BehaviourTrees.BehaviourTreeBase.CurrentNode*"></a>
-  <h4 id="ESGI_BehaviourTrees_BehaviourTreeBase_CurrentNode" data-uid="ESGI.BehaviourTrees.BehaviourTreeBase.CurrentNode">CurrentNode</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="ESGI_BehaviourTrees_BehaviourTreeBase_Awake_" data-uid="ESGI.BehaviourTrees.BehaviourTreeBase.Awake*"></a>
+  <h4 id="ESGI_BehaviourTrees_BehaviourTreeBase_Awake" data-uid="ESGI.BehaviourTrees.BehaviourTreeBase.Awake">Awake()</h4>
+  <div class="markdown level1 summary"><p>Init the BT.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract NodeBase CurrentNode { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ESGI.BehaviourTrees.NodeBase.html">NodeBase</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
-  <a id="ESGI_BehaviourTrees_BehaviourTreeBase_root_" data-uid="ESGI.BehaviourTrees.BehaviourTreeBase.root*"></a>
-  <h4 id="ESGI_BehaviourTrees_BehaviourTreeBase_root" data-uid="ESGI.BehaviourTrees.BehaviourTreeBase.root">root</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="ESGI_BehaviourTrees_BehaviourTreeBase_OnDrawGizmos_" data-uid="ESGI.BehaviourTrees.BehaviourTreeBase.OnDrawGizmos*"></a>
+  <h4 id="ESGI_BehaviourTrees_BehaviourTreeBase_OnDrawGizmos" data-uid="ESGI.BehaviourTrees.BehaviourTreeBase.OnDrawGizmos">OnDrawGizmos()</h4>
+  <div class="markdown level1 summary"><p>Draw each node gizmos</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract NodeBase root { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnDrawGizmos()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ESGI.BehaviourTrees.NodeBase.html">NodeBase</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  
+  
+  <a id="ESGI_BehaviourTrees_BehaviourTreeBase_Start_" data-uid="ESGI.BehaviourTrees.BehaviourTreeBase.Start*"></a>
+  <h4 id="ESGI_BehaviourTrees_BehaviourTreeBase_Start" data-uid="ESGI.BehaviourTrees.BehaviourTreeBase.Start">Start()</h4>
+  <div class="markdown level1 summary"><p>Starts the BT</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
+  </div>
+  
+  
+  <a id="ESGI_BehaviourTrees_BehaviourTreeBase_Update_" data-uid="ESGI.BehaviourTrees.BehaviourTreeBase.Update*"></a>
+  <h4 id="ESGI_BehaviourTrees_BehaviourTreeBase_Update" data-uid="ESGI.BehaviourTrees.BehaviourTreeBase.Update">Update()</h4>
+  <div class="markdown level1 summary"><p>Updates the tree</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Update()</code></pre>
+  </div>
 </article>
           </div>
           

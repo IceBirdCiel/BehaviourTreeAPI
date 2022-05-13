@@ -25,23 +25,6 @@ references:
   fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent)
   nameWithType: BehaviourTree<TAgent>
   nameWithType.vb: BehaviourTree(Of TAgent)
-- uid: ESGI.BehaviourTrees.BehaviourTree`1.Activated
-  name: Activated
-  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_Activated
-  commentId: P:ESGI.BehaviourTrees.BehaviourTree`1.Activated
-  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.Activated
-  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).Activated
-  nameWithType: BehaviourTree<TAgent>.Activated
-  nameWithType.vb: BehaviourTree(Of TAgent).Activated
-- uid: ESGI.BehaviourTrees.BehaviourTree`1.Activated*
-  name: Activated
-  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_Activated_
-  commentId: Overload:ESGI.BehaviourTrees.BehaviourTree`1.Activated
-  isSpec: "True"
-  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.Activated
-  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).Activated
-  nameWithType: BehaviourTree<TAgent>.Activated
-  nameWithType.vb: BehaviourTree(Of TAgent).Activated
 - uid: ESGI.BehaviourTrees.BehaviourTree`1.Agent
   name: Agent
   href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_Agent
@@ -76,57 +59,6 @@ references:
   fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).Awake
   nameWithType: BehaviourTree<TAgent>.Awake
   nameWithType.vb: BehaviourTree(Of TAgent).Awake
-- uid: ESGI.BehaviourTrees.BehaviourTree`1.CurrentNode
-  name: CurrentNode
-  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_CurrentNode
-  commentId: P:ESGI.BehaviourTrees.BehaviourTree`1.CurrentNode
-  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.CurrentNode
-  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).CurrentNode
-  nameWithType: BehaviourTree<TAgent>.CurrentNode
-  nameWithType.vb: BehaviourTree(Of TAgent).CurrentNode
-- uid: ESGI.BehaviourTrees.BehaviourTree`1.CurrentNode*
-  name: CurrentNode
-  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_CurrentNode_
-  commentId: Overload:ESGI.BehaviourTrees.BehaviourTree`1.CurrentNode
-  isSpec: "True"
-  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.CurrentNode
-  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).CurrentNode
-  nameWithType: BehaviourTree<TAgent>.CurrentNode
-  nameWithType.vb: BehaviourTree(Of TAgent).CurrentNode
-- uid: ESGI.BehaviourTrees.BehaviourTree`1.OnDestroy
-  name: OnDestroy()
-  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_OnDestroy
-  commentId: M:ESGI.BehaviourTrees.BehaviourTree`1.OnDestroy
-  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.OnDestroy()
-  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).OnDestroy()
-  nameWithType: BehaviourTree<TAgent>.OnDestroy()
-  nameWithType.vb: BehaviourTree(Of TAgent).OnDestroy()
-- uid: ESGI.BehaviourTrees.BehaviourTree`1.OnDestroy*
-  name: OnDestroy
-  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_OnDestroy_
-  commentId: Overload:ESGI.BehaviourTrees.BehaviourTree`1.OnDestroy
-  isSpec: "True"
-  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.OnDestroy
-  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).OnDestroy
-  nameWithType: BehaviourTree<TAgent>.OnDestroy
-  nameWithType.vb: BehaviourTree(Of TAgent).OnDestroy
-- uid: ESGI.BehaviourTrees.BehaviourTree`1.OnDisable
-  name: OnDisable()
-  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_OnDisable
-  commentId: M:ESGI.BehaviourTrees.BehaviourTree`1.OnDisable
-  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.OnDisable()
-  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).OnDisable()
-  nameWithType: BehaviourTree<TAgent>.OnDisable()
-  nameWithType.vb: BehaviourTree(Of TAgent).OnDisable()
-- uid: ESGI.BehaviourTrees.BehaviourTree`1.OnDisable*
-  name: OnDisable
-  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_OnDisable_
-  commentId: Overload:ESGI.BehaviourTrees.BehaviourTree`1.OnDisable
-  isSpec: "True"
-  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.OnDisable
-  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).OnDisable
-  nameWithType: BehaviourTree<TAgent>.OnDisable
-  nameWithType.vb: BehaviourTree(Of TAgent).OnDisable
 - uid: ESGI.BehaviourTrees.BehaviourTree`1.OnDrawGizmos
   name: OnDrawGizmos()
   href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_OnDrawGizmos
@@ -144,40 +76,6 @@ references:
   fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).OnDrawGizmos
   nameWithType: BehaviourTree<TAgent>.OnDrawGizmos
   nameWithType.vb: BehaviourTree(Of TAgent).OnDrawGizmos
-- uid: ESGI.BehaviourTrees.BehaviourTree`1.OnEnable
-  name: OnEnable()
-  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_OnEnable
-  commentId: M:ESGI.BehaviourTrees.BehaviourTree`1.OnEnable
-  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.OnEnable()
-  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).OnEnable()
-  nameWithType: BehaviourTree<TAgent>.OnEnable()
-  nameWithType.vb: BehaviourTree(Of TAgent).OnEnable()
-- uid: ESGI.BehaviourTrees.BehaviourTree`1.OnEnable*
-  name: OnEnable
-  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_OnEnable_
-  commentId: Overload:ESGI.BehaviourTrees.BehaviourTree`1.OnEnable
-  isSpec: "True"
-  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.OnEnable
-  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).OnEnable
-  nameWithType: BehaviourTree<TAgent>.OnEnable
-  nameWithType.vb: BehaviourTree(Of TAgent).OnEnable
-- uid: ESGI.BehaviourTrees.BehaviourTree`1.root
-  name: root
-  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_root
-  commentId: P:ESGI.BehaviourTrees.BehaviourTree`1.root
-  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.root
-  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).root
-  nameWithType: BehaviourTree<TAgent>.root
-  nameWithType.vb: BehaviourTree(Of TAgent).root
-- uid: ESGI.BehaviourTrees.BehaviourTree`1.root*
-  name: root
-  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_root_
-  commentId: Overload:ESGI.BehaviourTrees.BehaviourTree`1.root
-  isSpec: "True"
-  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.root
-  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).root
-  nameWithType: BehaviourTree<TAgent>.root
-  nameWithType.vb: BehaviourTree(Of TAgent).root
 - uid: ESGI.BehaviourTrees.BehaviourTree`1.Start
   name: Start()
   href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_Start
@@ -218,32 +116,58 @@ references:
   commentId: T:ESGI.BehaviourTrees.BehaviourTreeBase
   fullName: ESGI.BehaviourTrees.BehaviourTreeBase
   nameWithType: BehaviourTreeBase
-- uid: ESGI.BehaviourTrees.BehaviourTreeBase.CurrentNode
-  name: CurrentNode
-  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_CurrentNode
-  commentId: P:ESGI.BehaviourTrees.BehaviourTreeBase.CurrentNode
-  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.CurrentNode
-  nameWithType: BehaviourTreeBase.CurrentNode
-- uid: ESGI.BehaviourTrees.BehaviourTreeBase.CurrentNode*
-  name: CurrentNode
-  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_CurrentNode_
-  commentId: Overload:ESGI.BehaviourTrees.BehaviourTreeBase.CurrentNode
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.Awake
+  name: Awake()
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Awake
+  commentId: M:ESGI.BehaviourTrees.BehaviourTreeBase.Awake
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.Awake()
+  nameWithType: BehaviourTreeBase.Awake()
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.Awake*
+  name: Awake
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Awake_
+  commentId: Overload:ESGI.BehaviourTrees.BehaviourTreeBase.Awake
   isSpec: "True"
-  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.CurrentNode
-  nameWithType: BehaviourTreeBase.CurrentNode
-- uid: ESGI.BehaviourTrees.BehaviourTreeBase.root
-  name: root
-  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_root
-  commentId: P:ESGI.BehaviourTrees.BehaviourTreeBase.root
-  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.root
-  nameWithType: BehaviourTreeBase.root
-- uid: ESGI.BehaviourTrees.BehaviourTreeBase.root*
-  name: root
-  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_root_
-  commentId: Overload:ESGI.BehaviourTrees.BehaviourTreeBase.root
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.Awake
+  nameWithType: BehaviourTreeBase.Awake
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.OnDrawGizmos
+  name: OnDrawGizmos()
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_OnDrawGizmos
+  commentId: M:ESGI.BehaviourTrees.BehaviourTreeBase.OnDrawGizmos
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.OnDrawGizmos()
+  nameWithType: BehaviourTreeBase.OnDrawGizmos()
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.OnDrawGizmos*
+  name: OnDrawGizmos
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_OnDrawGizmos_
+  commentId: Overload:ESGI.BehaviourTrees.BehaviourTreeBase.OnDrawGizmos
   isSpec: "True"
-  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.root
-  nameWithType: BehaviourTreeBase.root
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.OnDrawGizmos
+  nameWithType: BehaviourTreeBase.OnDrawGizmos
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.Start
+  name: Start()
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Start
+  commentId: M:ESGI.BehaviourTrees.BehaviourTreeBase.Start
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.Start()
+  nameWithType: BehaviourTreeBase.Start()
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.Start*
+  name: Start
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Start_
+  commentId: Overload:ESGI.BehaviourTrees.BehaviourTreeBase.Start
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.Start
+  nameWithType: BehaviourTreeBase.Start
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.Update
+  name: Update()
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Update
+  commentId: M:ESGI.BehaviourTrees.BehaviourTreeBase.Update
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.Update()
+  nameWithType: BehaviourTreeBase.Update()
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.Update*
+  name: Update
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Update_
+  commentId: Overload:ESGI.BehaviourTrees.BehaviourTreeBase.Update
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.Update
+  nameWithType: BehaviourTreeBase.Update
 - uid: ESGI.BehaviourTrees.CompositeNode`1
   name: CompositeNode<TAgent>
   href: api/ESGI.BehaviourTrees.CompositeNode-1.html
@@ -603,23 +527,6 @@ references:
   fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent)
   nameWithType: Node<TAgent>
   nameWithType.vb: Node(Of TAgent)
-- uid: ESGI.BehaviourTrees.Node`1._children
-  name: _children
-  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1__children
-  commentId: P:ESGI.BehaviourTrees.Node`1._children
-  fullName: ESGI.BehaviourTrees.Node<TAgent>._children
-  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent)._children
-  nameWithType: Node<TAgent>._children
-  nameWithType.vb: Node(Of TAgent)._children
-- uid: ESGI.BehaviourTrees.Node`1._children*
-  name: _children
-  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1__children_
-  commentId: Overload:ESGI.BehaviourTrees.Node`1._children
-  isSpec: "True"
-  fullName: ESGI.BehaviourTrees.Node<TAgent>._children
-  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent)._children
-  nameWithType: Node<TAgent>._children
-  nameWithType.vb: Node(Of TAgent)._children
 - uid: ESGI.BehaviourTrees.Node`1.Agent
   name: Agent
   href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Agent
@@ -791,23 +698,6 @@ references:
   fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).OnUpdate
   nameWithType: Node<TAgent>.OnUpdate
   nameWithType.vb: Node(Of TAgent).OnUpdate
-- uid: ESGI.BehaviourTrees.Node`1.Parent
-  name: Parent
-  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Parent
-  commentId: P:ESGI.BehaviourTrees.Node`1.Parent
-  fullName: ESGI.BehaviourTrees.Node<TAgent>.Parent
-  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).Parent
-  nameWithType: Node<TAgent>.Parent
-  nameWithType.vb: Node(Of TAgent).Parent
-- uid: ESGI.BehaviourTrees.Node`1.Parent*
-  name: Parent
-  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Parent_
-  commentId: Overload:ESGI.BehaviourTrees.Node`1.Parent
-  isSpec: "True"
-  fullName: ESGI.BehaviourTrees.Node<TAgent>.Parent
-  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).Parent
-  nameWithType: Node<TAgent>.Parent
-  nameWithType.vb: Node(Of TAgent).Parent
 - uid: ESGI.BehaviourTrees.Node`1.State
   name: State
   href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_State
@@ -825,40 +715,6 @@ references:
   fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).State
   nameWithType: Node<TAgent>.State
   nameWithType.vb: Node(Of TAgent).State
-- uid: ESGI.BehaviourTrees.Node`1.states
-  name: states
-  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_states
-  commentId: P:ESGI.BehaviourTrees.Node`1.states
-  fullName: ESGI.BehaviourTrees.Node<TAgent>.states
-  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).states
-  nameWithType: Node<TAgent>.states
-  nameWithType.vb: Node(Of TAgent).states
-- uid: ESGI.BehaviourTrees.Node`1.states*
-  name: states
-  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_states_
-  commentId: Overload:ESGI.BehaviourTrees.Node`1.states
-  isSpec: "True"
-  fullName: ESGI.BehaviourTrees.Node<TAgent>.states
-  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).states
-  nameWithType: Node<TAgent>.states
-  nameWithType.vb: Node(Of TAgent).states
-- uid: ESGI.BehaviourTrees.Node`1.Tree
-  name: Tree
-  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Tree
-  commentId: P:ESGI.BehaviourTrees.Node`1.Tree
-  fullName: ESGI.BehaviourTrees.Node<TAgent>.Tree
-  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).Tree
-  nameWithType: Node<TAgent>.Tree
-  nameWithType.vb: Node(Of TAgent).Tree
-- uid: ESGI.BehaviourTrees.Node`1.Tree*
-  name: Tree
-  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Tree_
-  commentId: Overload:ESGI.BehaviourTrees.Node`1.Tree
-  isSpec: "True"
-  fullName: ESGI.BehaviourTrees.Node<TAgent>.Tree
-  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).Tree
-  nameWithType: Node<TAgent>.Tree
-  nameWithType.vb: Node(Of TAgent).Tree
 - uid: ESGI.BehaviourTrees.Node`1.Update
   name: Update()
   href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Update
@@ -882,32 +738,6 @@ references:
   commentId: T:ESGI.BehaviourTrees.NodeBase
   fullName: ESGI.BehaviourTrees.NodeBase
   nameWithType: NodeBase
-- uid: ESGI.BehaviourTrees.NodeBase._children
-  name: _children
-  href: api/ESGI.BehaviourTrees.NodeBase.html#ESGI_BehaviourTrees_NodeBase__children
-  commentId: P:ESGI.BehaviourTrees.NodeBase._children
-  fullName: ESGI.BehaviourTrees.NodeBase._children
-  nameWithType: NodeBase._children
-- uid: ESGI.BehaviourTrees.NodeBase._children*
-  name: _children
-  href: api/ESGI.BehaviourTrees.NodeBase.html#ESGI_BehaviourTrees_NodeBase__children_
-  commentId: Overload:ESGI.BehaviourTrees.NodeBase._children
-  isSpec: "True"
-  fullName: ESGI.BehaviourTrees.NodeBase._children
-  nameWithType: NodeBase._children
-- uid: ESGI.BehaviourTrees.NodeBase.states
-  name: states
-  href: api/ESGI.BehaviourTrees.NodeBase.html#ESGI_BehaviourTrees_NodeBase_states
-  commentId: P:ESGI.BehaviourTrees.NodeBase.states
-  fullName: ESGI.BehaviourTrees.NodeBase.states
-  nameWithType: NodeBase.states
-- uid: ESGI.BehaviourTrees.NodeBase.states*
-  name: states
-  href: api/ESGI.BehaviourTrees.NodeBase.html#ESGI_BehaviourTrees_NodeBase_states_
-  commentId: Overload:ESGI.BehaviourTrees.NodeBase.states
-  isSpec: "True"
-  fullName: ESGI.BehaviourTrees.NodeBase.states
-  nameWithType: NodeBase.states
 - uid: ESGI.BehaviourTrees.NodeState
   name: NodeState
   href: api/ESGI.BehaviourTrees.NodeState.html

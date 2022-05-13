@@ -4,7 +4,7 @@ using UnityEngine;
 namespace ESGI.BehaviourTrees.Example
 {
     /// <summary>
-    /// The player patrols
+    /// The player patrols around waypoints
     /// </summary>
     [CreateAssetMenu(menuName = MenuPaths.Nodes + "Examples/Actions/Patrol Node")]
     public class PatrolNode : ActionNode<Patroller>
