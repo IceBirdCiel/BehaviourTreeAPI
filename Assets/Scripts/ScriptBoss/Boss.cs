@@ -20,6 +20,7 @@ public class Boss : MonoBehaviour
     public bool isDead = false;
     public bool isAttacking = false;
     public GameObject massue;
+    private Vector3 previousPos;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,17 +28,19 @@ public class Boss : MonoBehaviour
         transform = GetComponent<Transform>();
         animator = GetComponent<Animator>();
         slider = GetComponentInChildren<Slider>();
+        previousPos = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
         UpdateHealth();
+        
         if (!isDead)
         {
             LookAtPlayer();
-            
-            
+            UpdateSpeed();
+
             /*if (IsPlayerInVisionRange())
             {
                 if (isPlayerInAttackRange())
@@ -57,7 +60,12 @@ public class Boss : MonoBehaviour
         }
 
     }
-
+    private void UpdateSpeed()
+    {
+        float speed = (transform.position - previousPos).magnitude / Time.deltaTime;
+        animator.SetFloat("Speed", speed);
+        previousPos = transform.position;
+    }
     public void StartAttack()
     {
         isAttacking = true;
