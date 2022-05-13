@@ -27,6 +27,10 @@ namespace ESGI.BehaviourTrees.Example
                     Agent.Speed * Time.deltaTime);
                 Transform.LookAt(position);
             }
+            else
+            {
+                return NodeState.Success;
+            }
 
             return NodeState.Running;
         }

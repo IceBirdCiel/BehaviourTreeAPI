@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Patrol
   m_EditorClassIdentifier: 
   children: []
+  waitTime: 0.3

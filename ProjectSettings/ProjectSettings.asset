@@ -152,8 +152,7 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier:
-    Standalone: com.DefaultCompany.BehaviourTree
+  applicationIdentifier: {}
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -591,7 +590,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: MOREMOUNTAINS_FEEDBACKS;DREAMTECK_SPLINES;LETAI_TRUESHADOW;MOREMOUNTAINS_NICEVIBRATIONS;MOREMOUNTAINS_TOOLS;ODIN_INSPECTOR;ODIN_INSPECTOR_3;MOREMOUNTAINS_TEXTMESHPRO_INSTALLED;MOREMOUNTAINS_TOOLS_FOR_MMFEEDBACKS;STARTER_ASSETS_PACKAGES_CHECKED;USING_URP;SHAPES_URP
+    1: AMPLIFY_SHADER_EDITOR;DREAMTECK_SPLINES;LETAI_TRUESHADOW;ODIN_INSPECTOR;ODIN_INSPECTOR_3
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

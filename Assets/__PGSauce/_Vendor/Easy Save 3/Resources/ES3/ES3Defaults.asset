@@ -35,7 +35,6 @@ MonoBehaviour:
     - Dreamteck.Utilities
     - Dreamteck.Splines
     - ShapesRuntime
-    - Cinemachine
     - LeTai.TrueShadow.Demo
     - Animancer.Examples
     - LeanTouch
@@ -54,6 +53,7 @@ MonoBehaviour:
     - LeTai.TrueShadow.Editor
     - PlayFabSDKEditor
     - Sirenix.OdinInspector.Modules.UnityMathematics
+    - AmplifyShaderEditor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1

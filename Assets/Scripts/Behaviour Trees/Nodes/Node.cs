@@ -27,6 +27,20 @@ namespace ESGI.BehaviourTrees
         public NodeState State { get; set; }
 
         public List<Node<TAgent>> Children => children;
+        public bool IsRunningLastChild =>  IsLastChildRunning();
+        public Node<TAgent> LastChild => Children.Count == 0 ? this : Children.Last();
+
+        private bool IsLastChildRunning()
+        {
+            if (Children.Count == 0)
+            {
+                return true;
+            }
+
+            var firstRunning = Children.FirstOrDefault(c => c.State == NodeState.Running);
+            var last = Children.Last();
+            return firstRunning == last;
+        }
 
         /// <summary>
         /// Called by the BT
@@ -63,6 +77,11 @@ namespace ESGI.BehaviourTrees
         
         public NodeState Update()
         {
+            if (State == NodeState.Success || State == NodeState.Failure)
+            {
+                return State;
+            }
+            
             State = OnUpdate();
             if (State == NodeState.Success || State == NodeState.Failure)
             {
