@@ -1,0 +1,883 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: ESGI.BehaviourTrees
+  name: ESGI.BehaviourTrees
+  href: api/ESGI.BehaviourTrees.html
+  commentId: N:ESGI.BehaviourTrees
+  fullName: ESGI.BehaviourTrees
+  nameWithType: ESGI.BehaviourTrees
+- uid: ESGI.BehaviourTrees.ActionNode`1
+  name: ActionNode<TAgent>
+  href: api/ESGI.BehaviourTrees.ActionNode-1.html
+  commentId: T:ESGI.BehaviourTrees.ActionNode`1
+  name.vb: ActionNode(Of TAgent)
+  fullName: ESGI.BehaviourTrees.ActionNode<TAgent>
+  fullName.vb: ESGI.BehaviourTrees.ActionNode(Of TAgent)
+  nameWithType: ActionNode<TAgent>
+  nameWithType.vb: ActionNode(Of TAgent)
+- uid: ESGI.BehaviourTrees.BehaviourTree`1
+  name: BehaviourTree<TAgent>
+  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html
+  commentId: T:ESGI.BehaviourTrees.BehaviourTree`1
+  name.vb: BehaviourTree(Of TAgent)
+  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>
+  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent)
+  nameWithType: BehaviourTree<TAgent>
+  nameWithType.vb: BehaviourTree(Of TAgent)
+- uid: ESGI.BehaviourTrees.BehaviourTree`1.Agent
+  name: Agent
+  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_Agent
+  commentId: P:ESGI.BehaviourTrees.BehaviourTree`1.Agent
+  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.Agent
+  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).Agent
+  nameWithType: BehaviourTree<TAgent>.Agent
+  nameWithType.vb: BehaviourTree(Of TAgent).Agent
+- uid: ESGI.BehaviourTrees.BehaviourTree`1.Agent*
+  name: Agent
+  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_Agent_
+  commentId: Overload:ESGI.BehaviourTrees.BehaviourTree`1.Agent
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.Agent
+  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).Agent
+  nameWithType: BehaviourTree<TAgent>.Agent
+  nameWithType.vb: BehaviourTree(Of TAgent).Agent
+- uid: ESGI.BehaviourTrees.BehaviourTree`1.Awake
+  name: Awake()
+  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_Awake
+  commentId: M:ESGI.BehaviourTrees.BehaviourTree`1.Awake
+  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.Awake()
+  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).Awake()
+  nameWithType: BehaviourTree<TAgent>.Awake()
+  nameWithType.vb: BehaviourTree(Of TAgent).Awake()
+- uid: ESGI.BehaviourTrees.BehaviourTree`1.Awake*
+  name: Awake
+  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_Awake_
+  commentId: Overload:ESGI.BehaviourTrees.BehaviourTree`1.Awake
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.Awake
+  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).Awake
+  nameWithType: BehaviourTree<TAgent>.Awake
+  nameWithType.vb: BehaviourTree(Of TAgent).Awake
+- uid: ESGI.BehaviourTrees.BehaviourTree`1.OnDrawGizmos
+  name: OnDrawGizmos()
+  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_OnDrawGizmos
+  commentId: M:ESGI.BehaviourTrees.BehaviourTree`1.OnDrawGizmos
+  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.OnDrawGizmos()
+  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).OnDrawGizmos()
+  nameWithType: BehaviourTree<TAgent>.OnDrawGizmos()
+  nameWithType.vb: BehaviourTree(Of TAgent).OnDrawGizmos()
+- uid: ESGI.BehaviourTrees.BehaviourTree`1.OnDrawGizmos*
+  name: OnDrawGizmos
+  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_OnDrawGizmos_
+  commentId: Overload:ESGI.BehaviourTrees.BehaviourTree`1.OnDrawGizmos
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.OnDrawGizmos
+  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).OnDrawGizmos
+  nameWithType: BehaviourTree<TAgent>.OnDrawGizmos
+  nameWithType.vb: BehaviourTree(Of TAgent).OnDrawGizmos
+- uid: ESGI.BehaviourTrees.BehaviourTree`1.Start
+  name: Start()
+  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_Start
+  commentId: M:ESGI.BehaviourTrees.BehaviourTree`1.Start
+  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.Start()
+  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).Start()
+  nameWithType: BehaviourTree<TAgent>.Start()
+  nameWithType.vb: BehaviourTree(Of TAgent).Start()
+- uid: ESGI.BehaviourTrees.BehaviourTree`1.Start*
+  name: Start
+  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_Start_
+  commentId: Overload:ESGI.BehaviourTrees.BehaviourTree`1.Start
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.Start
+  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).Start
+  nameWithType: BehaviourTree<TAgent>.Start
+  nameWithType.vb: BehaviourTree(Of TAgent).Start
+- uid: ESGI.BehaviourTrees.BehaviourTree`1.Update
+  name: Update()
+  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_Update
+  commentId: M:ESGI.BehaviourTrees.BehaviourTree`1.Update
+  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.Update()
+  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).Update()
+  nameWithType: BehaviourTree<TAgent>.Update()
+  nameWithType.vb: BehaviourTree(Of TAgent).Update()
+- uid: ESGI.BehaviourTrees.BehaviourTree`1.Update*
+  name: Update
+  href: api/ESGI.BehaviourTrees.BehaviourTree-1.html#ESGI_BehaviourTrees_BehaviourTree_1_Update_
+  commentId: Overload:ESGI.BehaviourTrees.BehaviourTree`1.Update
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.BehaviourTree<TAgent>.Update
+  fullName.vb: ESGI.BehaviourTrees.BehaviourTree(Of TAgent).Update
+  nameWithType: BehaviourTree<TAgent>.Update
+  nameWithType.vb: BehaviourTree(Of TAgent).Update
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase
+  name: BehaviourTreeBase
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html
+  commentId: T:ESGI.BehaviourTrees.BehaviourTreeBase
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase
+  nameWithType: BehaviourTreeBase
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.Awake
+  name: Awake()
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Awake
+  commentId: M:ESGI.BehaviourTrees.BehaviourTreeBase.Awake
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.Awake()
+  nameWithType: BehaviourTreeBase.Awake()
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.Awake*
+  name: Awake
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Awake_
+  commentId: Overload:ESGI.BehaviourTrees.BehaviourTreeBase.Awake
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.Awake
+  nameWithType: BehaviourTreeBase.Awake
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.OnDrawGizmos
+  name: OnDrawGizmos()
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_OnDrawGizmos
+  commentId: M:ESGI.BehaviourTrees.BehaviourTreeBase.OnDrawGizmos
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.OnDrawGizmos()
+  nameWithType: BehaviourTreeBase.OnDrawGizmos()
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.OnDrawGizmos*
+  name: OnDrawGizmos
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_OnDrawGizmos_
+  commentId: Overload:ESGI.BehaviourTrees.BehaviourTreeBase.OnDrawGizmos
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.OnDrawGizmos
+  nameWithType: BehaviourTreeBase.OnDrawGizmos
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.Start
+  name: Start()
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Start
+  commentId: M:ESGI.BehaviourTrees.BehaviourTreeBase.Start
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.Start()
+  nameWithType: BehaviourTreeBase.Start()
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.Start*
+  name: Start
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Start_
+  commentId: Overload:ESGI.BehaviourTrees.BehaviourTreeBase.Start
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.Start
+  nameWithType: BehaviourTreeBase.Start
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.Update
+  name: Update()
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Update
+  commentId: M:ESGI.BehaviourTrees.BehaviourTreeBase.Update
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.Update()
+  nameWithType: BehaviourTreeBase.Update()
+- uid: ESGI.BehaviourTrees.BehaviourTreeBase.Update*
+  name: Update
+  href: api/ESGI.BehaviourTrees.BehaviourTreeBase.html#ESGI_BehaviourTrees_BehaviourTreeBase_Update_
+  commentId: Overload:ESGI.BehaviourTrees.BehaviourTreeBase.Update
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.BehaviourTreeBase.Update
+  nameWithType: BehaviourTreeBase.Update
+- uid: ESGI.BehaviourTrees.CompositeNode`1
+  name: CompositeNode<TAgent>
+  href: api/ESGI.BehaviourTrees.CompositeNode-1.html
+  commentId: T:ESGI.BehaviourTrees.CompositeNode`1
+  name.vb: CompositeNode(Of TAgent)
+  fullName: ESGI.BehaviourTrees.CompositeNode<TAgent>
+  fullName.vb: ESGI.BehaviourTrees.CompositeNode(Of TAgent)
+  nameWithType: CompositeNode<TAgent>
+  nameWithType.vb: CompositeNode(Of TAgent)
+- uid: ESGI.BehaviourTrees.ConditionNode`1
+  name: ConditionNode<TAgent>
+  href: api/ESGI.BehaviourTrees.ConditionNode-1.html
+  commentId: T:ESGI.BehaviourTrees.ConditionNode`1
+  name.vb: ConditionNode(Of TAgent)
+  fullName: ESGI.BehaviourTrees.ConditionNode<TAgent>
+  fullName.vb: ESGI.BehaviourTrees.ConditionNode(Of TAgent)
+  nameWithType: ConditionNode<TAgent>
+  nameWithType.vb: ConditionNode(Of TAgent)
+- uid: ESGI.BehaviourTrees.Example
+  name: ESGI.BehaviourTrees.Example
+  href: api/ESGI.BehaviourTrees.Example.html
+  commentId: N:ESGI.BehaviourTrees.Example
+  fullName: ESGI.BehaviourTrees.Example
+  nameWithType: ESGI.BehaviourTrees.Example
+- uid: ESGI.BehaviourTrees.Example.AttackEnemyNode
+  name: AttackEnemyNode
+  href: api/ESGI.BehaviourTrees.Example.AttackEnemyNode.html
+  commentId: T:ESGI.BehaviourTrees.Example.AttackEnemyNode
+  fullName: ESGI.BehaviourTrees.Example.AttackEnemyNode
+  nameWithType: AttackEnemyNode
+- uid: ESGI.BehaviourTrees.Example.AttackEnemyNode.OnBeforeExecute
+  name: OnBeforeExecute()
+  href: api/ESGI.BehaviourTrees.Example.AttackEnemyNode.html#ESGI_BehaviourTrees_Example_AttackEnemyNode_OnBeforeExecute
+  commentId: M:ESGI.BehaviourTrees.Example.AttackEnemyNode.OnBeforeExecute
+  fullName: ESGI.BehaviourTrees.Example.AttackEnemyNode.OnBeforeExecute()
+  nameWithType: AttackEnemyNode.OnBeforeExecute()
+- uid: ESGI.BehaviourTrees.Example.AttackEnemyNode.OnBeforeExecute*
+  name: OnBeforeExecute
+  href: api/ESGI.BehaviourTrees.Example.AttackEnemyNode.html#ESGI_BehaviourTrees_Example_AttackEnemyNode_OnBeforeExecute_
+  commentId: Overload:ESGI.BehaviourTrees.Example.AttackEnemyNode.OnBeforeExecute
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.AttackEnemyNode.OnBeforeExecute
+  nameWithType: AttackEnemyNode.OnBeforeExecute
+- uid: ESGI.BehaviourTrees.Example.AttackEnemyNode.OnInit
+  name: OnInit()
+  href: api/ESGI.BehaviourTrees.Example.AttackEnemyNode.html#ESGI_BehaviourTrees_Example_AttackEnemyNode_OnInit
+  commentId: M:ESGI.BehaviourTrees.Example.AttackEnemyNode.OnInit
+  fullName: ESGI.BehaviourTrees.Example.AttackEnemyNode.OnInit()
+  nameWithType: AttackEnemyNode.OnInit()
+- uid: ESGI.BehaviourTrees.Example.AttackEnemyNode.OnInit*
+  name: OnInit
+  href: api/ESGI.BehaviourTrees.Example.AttackEnemyNode.html#ESGI_BehaviourTrees_Example_AttackEnemyNode_OnInit_
+  commentId: Overload:ESGI.BehaviourTrees.Example.AttackEnemyNode.OnInit
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.AttackEnemyNode.OnInit
+  nameWithType: AttackEnemyNode.OnInit
+- uid: ESGI.BehaviourTrees.Example.AttackEnemyNode.OnUpdate
+  name: OnUpdate()
+  href: api/ESGI.BehaviourTrees.Example.AttackEnemyNode.html#ESGI_BehaviourTrees_Example_AttackEnemyNode_OnUpdate
+  commentId: M:ESGI.BehaviourTrees.Example.AttackEnemyNode.OnUpdate
+  fullName: ESGI.BehaviourTrees.Example.AttackEnemyNode.OnUpdate()
+  nameWithType: AttackEnemyNode.OnUpdate()
+- uid: ESGI.BehaviourTrees.Example.AttackEnemyNode.OnUpdate*
+  name: OnUpdate
+  href: api/ESGI.BehaviourTrees.Example.AttackEnemyNode.html#ESGI_BehaviourTrees_Example_AttackEnemyNode_OnUpdate_
+  commentId: Overload:ESGI.BehaviourTrees.Example.AttackEnemyNode.OnUpdate
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.AttackEnemyNode.OnUpdate
+  nameWithType: AttackEnemyNode.OnUpdate
+- uid: ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode
+  name: CheckEnemyInFovRangeNode
+  href: api/ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.html
+  commentId: T:ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode
+  fullName: ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode
+  nameWithType: CheckEnemyInFovRangeNode
+- uid: ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.DrawGizmos
+  name: DrawGizmos()
+  href: api/ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.html#ESGI_BehaviourTrees_Example_CheckEnemyInFovRangeNode_DrawGizmos
+  commentId: M:ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.DrawGizmos
+  fullName: ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.DrawGizmos()
+  nameWithType: CheckEnemyInFovRangeNode.DrawGizmos()
+- uid: ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.DrawGizmos*
+  name: DrawGizmos
+  href: api/ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.html#ESGI_BehaviourTrees_Example_CheckEnemyInFovRangeNode_DrawGizmos_
+  commentId: Overload:ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.DrawGizmos
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.DrawGizmos
+  nameWithType: CheckEnemyInFovRangeNode.DrawGizmos
+- uid: ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.OnBeforeExecute
+  name: OnBeforeExecute()
+  href: api/ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.html#ESGI_BehaviourTrees_Example_CheckEnemyInFovRangeNode_OnBeforeExecute
+  commentId: M:ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.OnBeforeExecute
+  fullName: ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.OnBeforeExecute()
+  nameWithType: CheckEnemyInFovRangeNode.OnBeforeExecute()
+- uid: ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.OnBeforeExecute*
+  name: OnBeforeExecute
+  href: api/ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.html#ESGI_BehaviourTrees_Example_CheckEnemyInFovRangeNode_OnBeforeExecute_
+  commentId: Overload:ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.OnBeforeExecute
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.OnBeforeExecute
+  nameWithType: CheckEnemyInFovRangeNode.OnBeforeExecute
+- uid: ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.OnUpdate
+  name: OnUpdate()
+  href: api/ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.html#ESGI_BehaviourTrees_Example_CheckEnemyInFovRangeNode_OnUpdate
+  commentId: M:ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.OnUpdate
+  fullName: ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.OnUpdate()
+  nameWithType: CheckEnemyInFovRangeNode.OnUpdate()
+- uid: ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.OnUpdate*
+  name: OnUpdate
+  href: api/ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.html#ESGI_BehaviourTrees_Example_CheckEnemyInFovRangeNode_OnUpdate_
+  commentId: Overload:ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.OnUpdate
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.CheckEnemyInFovRangeNode.OnUpdate
+  nameWithType: CheckEnemyInFovRangeNode.OnUpdate
+- uid: ESGI.BehaviourTrees.Example.Enemy
+  name: Enemy
+  href: api/ESGI.BehaviourTrees.Example.Enemy.html
+  commentId: T:ESGI.BehaviourTrees.Example.Enemy
+  fullName: ESGI.BehaviourTrees.Example.Enemy
+  nameWithType: Enemy
+- uid: ESGI.BehaviourTrees.Example.Enemy.Awake
+  name: Awake()
+  href: api/ESGI.BehaviourTrees.Example.Enemy.html#ESGI_BehaviourTrees_Example_Enemy_Awake
+  commentId: M:ESGI.BehaviourTrees.Example.Enemy.Awake
+  fullName: ESGI.BehaviourTrees.Example.Enemy.Awake()
+  nameWithType: Enemy.Awake()
+- uid: ESGI.BehaviourTrees.Example.Enemy.Awake*
+  name: Awake
+  href: api/ESGI.BehaviourTrees.Example.Enemy.html#ESGI_BehaviourTrees_Example_Enemy_Awake_
+  commentId: Overload:ESGI.BehaviourTrees.Example.Enemy.Awake
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.Enemy.Awake
+  nameWithType: Enemy.Awake
+- uid: ESGI.BehaviourTrees.Example.Enemy.OnDestroy
+  name: OnDestroy()
+  href: api/ESGI.BehaviourTrees.Example.Enemy.html#ESGI_BehaviourTrees_Example_Enemy_OnDestroy
+  commentId: M:ESGI.BehaviourTrees.Example.Enemy.OnDestroy
+  fullName: ESGI.BehaviourTrees.Example.Enemy.OnDestroy()
+  nameWithType: Enemy.OnDestroy()
+- uid: ESGI.BehaviourTrees.Example.Enemy.OnDestroy*
+  name: OnDestroy
+  href: api/ESGI.BehaviourTrees.Example.Enemy.html#ESGI_BehaviourTrees_Example_Enemy_OnDestroy_
+  commentId: Overload:ESGI.BehaviourTrees.Example.Enemy.OnDestroy
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.Enemy.OnDestroy
+  nameWithType: Enemy.OnDestroy
+- uid: ESGI.BehaviourTrees.Example.Enemy.OnDisable
+  name: OnDisable()
+  href: api/ESGI.BehaviourTrees.Example.Enemy.html#ESGI_BehaviourTrees_Example_Enemy_OnDisable
+  commentId: M:ESGI.BehaviourTrees.Example.Enemy.OnDisable
+  fullName: ESGI.BehaviourTrees.Example.Enemy.OnDisable()
+  nameWithType: Enemy.OnDisable()
+- uid: ESGI.BehaviourTrees.Example.Enemy.OnDisable*
+  name: OnDisable
+  href: api/ESGI.BehaviourTrees.Example.Enemy.html#ESGI_BehaviourTrees_Example_Enemy_OnDisable_
+  commentId: Overload:ESGI.BehaviourTrees.Example.Enemy.OnDisable
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.Enemy.OnDisable
+  nameWithType: Enemy.OnDisable
+- uid: ESGI.BehaviourTrees.Example.Enemy.OnEnable
+  name: OnEnable()
+  href: api/ESGI.BehaviourTrees.Example.Enemy.html#ESGI_BehaviourTrees_Example_Enemy_OnEnable
+  commentId: M:ESGI.BehaviourTrees.Example.Enemy.OnEnable
+  fullName: ESGI.BehaviourTrees.Example.Enemy.OnEnable()
+  nameWithType: Enemy.OnEnable()
+- uid: ESGI.BehaviourTrees.Example.Enemy.OnEnable*
+  name: OnEnable
+  href: api/ESGI.BehaviourTrees.Example.Enemy.html#ESGI_BehaviourTrees_Example_Enemy_OnEnable_
+  commentId: Overload:ESGI.BehaviourTrees.Example.Enemy.OnEnable
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.Enemy.OnEnable
+  nameWithType: Enemy.OnEnable
+- uid: ESGI.BehaviourTrees.Example.Enemy.Start
+  name: Start()
+  href: api/ESGI.BehaviourTrees.Example.Enemy.html#ESGI_BehaviourTrees_Example_Enemy_Start
+  commentId: M:ESGI.BehaviourTrees.Example.Enemy.Start
+  fullName: ESGI.BehaviourTrees.Example.Enemy.Start()
+  nameWithType: Enemy.Start()
+- uid: ESGI.BehaviourTrees.Example.Enemy.Start*
+  name: Start
+  href: api/ESGI.BehaviourTrees.Example.Enemy.html#ESGI_BehaviourTrees_Example_Enemy_Start_
+  commentId: Overload:ESGI.BehaviourTrees.Example.Enemy.Start
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.Enemy.Start
+  nameWithType: Enemy.Start
+- uid: ESGI.BehaviourTrees.Example.Enemy.Update
+  name: Update()
+  href: api/ESGI.BehaviourTrees.Example.Enemy.html#ESGI_BehaviourTrees_Example_Enemy_Update
+  commentId: M:ESGI.BehaviourTrees.Example.Enemy.Update
+  fullName: ESGI.BehaviourTrees.Example.Enemy.Update()
+  nameWithType: Enemy.Update()
+- uid: ESGI.BehaviourTrees.Example.Enemy.Update*
+  name: Update
+  href: api/ESGI.BehaviourTrees.Example.Enemy.html#ESGI_BehaviourTrees_Example_Enemy_Update_
+  commentId: Overload:ESGI.BehaviourTrees.Example.Enemy.Update
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.Enemy.Update
+  nameWithType: Enemy.Update
+- uid: ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode
+  name: EnemyInMeleeRangeNode
+  href: api/ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.html
+  commentId: T:ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode
+  fullName: ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode
+  nameWithType: EnemyInMeleeRangeNode
+- uid: ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.OnBeforeExecute
+  name: OnBeforeExecute()
+  href: api/ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.html#ESGI_BehaviourTrees_Example_EnemyInMeleeRangeNode_OnBeforeExecute
+  commentId: M:ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.OnBeforeExecute
+  fullName: ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.OnBeforeExecute()
+  nameWithType: EnemyInMeleeRangeNode.OnBeforeExecute()
+- uid: ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.OnBeforeExecute*
+  name: OnBeforeExecute
+  href: api/ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.html#ESGI_BehaviourTrees_Example_EnemyInMeleeRangeNode_OnBeforeExecute_
+  commentId: Overload:ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.OnBeforeExecute
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.OnBeforeExecute
+  nameWithType: EnemyInMeleeRangeNode.OnBeforeExecute
+- uid: ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.OnUpdate
+  name: OnUpdate()
+  href: api/ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.html#ESGI_BehaviourTrees_Example_EnemyInMeleeRangeNode_OnUpdate
+  commentId: M:ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.OnUpdate
+  fullName: ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.OnUpdate()
+  nameWithType: EnemyInMeleeRangeNode.OnUpdate()
+- uid: ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.OnUpdate*
+  name: OnUpdate
+  href: api/ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.html#ESGI_BehaviourTrees_Example_EnemyInMeleeRangeNode_OnUpdate_
+  commentId: Overload:ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.OnUpdate
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.EnemyInMeleeRangeNode.OnUpdate
+  nameWithType: EnemyInMeleeRangeNode.OnUpdate
+- uid: ESGI.BehaviourTrees.Example.GoToTargetNode
+  name: GoToTargetNode
+  href: api/ESGI.BehaviourTrees.Example.GoToTargetNode.html
+  commentId: T:ESGI.BehaviourTrees.Example.GoToTargetNode
+  fullName: ESGI.BehaviourTrees.Example.GoToTargetNode
+  nameWithType: GoToTargetNode
+- uid: ESGI.BehaviourTrees.Example.GoToTargetNode.OnUpdate
+  name: OnUpdate()
+  href: api/ESGI.BehaviourTrees.Example.GoToTargetNode.html#ESGI_BehaviourTrees_Example_GoToTargetNode_OnUpdate
+  commentId: M:ESGI.BehaviourTrees.Example.GoToTargetNode.OnUpdate
+  fullName: ESGI.BehaviourTrees.Example.GoToTargetNode.OnUpdate()
+  nameWithType: GoToTargetNode.OnUpdate()
+- uid: ESGI.BehaviourTrees.Example.GoToTargetNode.OnUpdate*
+  name: OnUpdate
+  href: api/ESGI.BehaviourTrees.Example.GoToTargetNode.html#ESGI_BehaviourTrees_Example_GoToTargetNode_OnUpdate_
+  commentId: Overload:ESGI.BehaviourTrees.Example.GoToTargetNode.OnUpdate
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.GoToTargetNode.OnUpdate
+  nameWithType: GoToTargetNode.OnUpdate
+- uid: ESGI.BehaviourTrees.Example.Patroller
+  name: Patroller
+  href: api/ESGI.BehaviourTrees.Example.Patroller.html
+  commentId: T:ESGI.BehaviourTrees.Example.Patroller
+  fullName: ESGI.BehaviourTrees.Example.Patroller
+  nameWithType: Patroller
+- uid: ESGI.BehaviourTrees.Example.Patroller.AttackTransform
+  name: AttackTransform
+  href: api/ESGI.BehaviourTrees.Example.Patroller.html#ESGI_BehaviourTrees_Example_Patroller_AttackTransform
+  commentId: P:ESGI.BehaviourTrees.Example.Patroller.AttackTransform
+  fullName: ESGI.BehaviourTrees.Example.Patroller.AttackTransform
+  nameWithType: Patroller.AttackTransform
+- uid: ESGI.BehaviourTrees.Example.Patroller.AttackTransform*
+  name: AttackTransform
+  href: api/ESGI.BehaviourTrees.Example.Patroller.html#ESGI_BehaviourTrees_Example_Patroller_AttackTransform_
+  commentId: Overload:ESGI.BehaviourTrees.Example.Patroller.AttackTransform
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.Patroller.AttackTransform
+  nameWithType: Patroller.AttackTransform
+- uid: ESGI.BehaviourTrees.Example.Patroller.Speed
+  name: Speed
+  href: api/ESGI.BehaviourTrees.Example.Patroller.html#ESGI_BehaviourTrees_Example_Patroller_Speed
+  commentId: P:ESGI.BehaviourTrees.Example.Patroller.Speed
+  fullName: ESGI.BehaviourTrees.Example.Patroller.Speed
+  nameWithType: Patroller.Speed
+- uid: ESGI.BehaviourTrees.Example.Patroller.Speed*
+  name: Speed
+  href: api/ESGI.BehaviourTrees.Example.Patroller.html#ESGI_BehaviourTrees_Example_Patroller_Speed_
+  commentId: Overload:ESGI.BehaviourTrees.Example.Patroller.Speed
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.Patroller.Speed
+  nameWithType: Patroller.Speed
+- uid: ESGI.BehaviourTrees.Example.Patroller.Waypoints
+  name: Waypoints
+  href: api/ESGI.BehaviourTrees.Example.Patroller.html#ESGI_BehaviourTrees_Example_Patroller_Waypoints
+  commentId: P:ESGI.BehaviourTrees.Example.Patroller.Waypoints
+  fullName: ESGI.BehaviourTrees.Example.Patroller.Waypoints
+  nameWithType: Patroller.Waypoints
+- uid: ESGI.BehaviourTrees.Example.Patroller.Waypoints*
+  name: Waypoints
+  href: api/ESGI.BehaviourTrees.Example.Patroller.html#ESGI_BehaviourTrees_Example_Patroller_Waypoints_
+  commentId: Overload:ESGI.BehaviourTrees.Example.Patroller.Waypoints
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.Patroller.Waypoints
+  nameWithType: Patroller.Waypoints
+- uid: ESGI.BehaviourTrees.Example.PatrollerBT
+  name: PatrollerBT
+  href: api/ESGI.BehaviourTrees.Example.PatrollerBT.html
+  commentId: T:ESGI.BehaviourTrees.Example.PatrollerBT
+  fullName: ESGI.BehaviourTrees.Example.PatrollerBT
+  nameWithType: PatrollerBT
+- uid: ESGI.BehaviourTrees.Example.PatrolNode
+  name: PatrolNode
+  href: api/ESGI.BehaviourTrees.Example.PatrolNode.html
+  commentId: T:ESGI.BehaviourTrees.Example.PatrolNode
+  fullName: ESGI.BehaviourTrees.Example.PatrolNode
+  nameWithType: PatrolNode
+- uid: ESGI.BehaviourTrees.Example.PatrolNode.OnBeforeExecute
+  name: OnBeforeExecute()
+  href: api/ESGI.BehaviourTrees.Example.PatrolNode.html#ESGI_BehaviourTrees_Example_PatrolNode_OnBeforeExecute
+  commentId: M:ESGI.BehaviourTrees.Example.PatrolNode.OnBeforeExecute
+  fullName: ESGI.BehaviourTrees.Example.PatrolNode.OnBeforeExecute()
+  nameWithType: PatrolNode.OnBeforeExecute()
+- uid: ESGI.BehaviourTrees.Example.PatrolNode.OnBeforeExecute*
+  name: OnBeforeExecute
+  href: api/ESGI.BehaviourTrees.Example.PatrolNode.html#ESGI_BehaviourTrees_Example_PatrolNode_OnBeforeExecute_
+  commentId: Overload:ESGI.BehaviourTrees.Example.PatrolNode.OnBeforeExecute
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.PatrolNode.OnBeforeExecute
+  nameWithType: PatrolNode.OnBeforeExecute
+- uid: ESGI.BehaviourTrees.Example.PatrolNode.OnUpdate
+  name: OnUpdate()
+  href: api/ESGI.BehaviourTrees.Example.PatrolNode.html#ESGI_BehaviourTrees_Example_PatrolNode_OnUpdate
+  commentId: M:ESGI.BehaviourTrees.Example.PatrolNode.OnUpdate
+  fullName: ESGI.BehaviourTrees.Example.PatrolNode.OnUpdate()
+  nameWithType: PatrolNode.OnUpdate()
+- uid: ESGI.BehaviourTrees.Example.PatrolNode.OnUpdate*
+  name: OnUpdate
+  href: api/ESGI.BehaviourTrees.Example.PatrolNode.html#ESGI_BehaviourTrees_Example_PatrolNode_OnUpdate_
+  commentId: Overload:ESGI.BehaviourTrees.Example.PatrolNode.OnUpdate
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Example.PatrolNode.OnUpdate
+  nameWithType: PatrolNode.OnUpdate
+- uid: ESGI.BehaviourTrees.Example.PatrolSelectorNode
+  name: PatrolSelectorNode
+  href: api/ESGI.BehaviourTrees.Example.PatrolSelectorNode.html
+  commentId: T:ESGI.BehaviourTrees.Example.PatrolSelectorNode
+  fullName: ESGI.BehaviourTrees.Example.PatrolSelectorNode
+  nameWithType: PatrolSelectorNode
+- uid: ESGI.BehaviourTrees.Example.PatrolSequenceNode
+  name: PatrolSequenceNode
+  href: api/ESGI.BehaviourTrees.Example.PatrolSequenceNode.html
+  commentId: T:ESGI.BehaviourTrees.Example.PatrolSequenceNode
+  fullName: ESGI.BehaviourTrees.Example.PatrolSequenceNode
+  nameWithType: PatrolSequenceNode
+- uid: ESGI.BehaviourTrees.Example.SharedEnemy
+  name: SharedEnemy
+  href: api/ESGI.BehaviourTrees.Example.SharedEnemy.html
+  commentId: T:ESGI.BehaviourTrees.Example.SharedEnemy
+  fullName: ESGI.BehaviourTrees.Example.SharedEnemy
+  nameWithType: SharedEnemy
+- uid: ESGI.BehaviourTrees.Node`1
+  name: Node<TAgent>
+  href: api/ESGI.BehaviourTrees.Node-1.html
+  commentId: T:ESGI.BehaviourTrees.Node`1
+  name.vb: Node(Of TAgent)
+  fullName: ESGI.BehaviourTrees.Node<TAgent>
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent)
+  nameWithType: Node<TAgent>
+  nameWithType.vb: Node(Of TAgent)
+- uid: ESGI.BehaviourTrees.Node`1.Agent
+  name: Agent
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Agent
+  commentId: P:ESGI.BehaviourTrees.Node`1.Agent
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.Agent
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).Agent
+  nameWithType: Node<TAgent>.Agent
+  nameWithType.vb: Node(Of TAgent).Agent
+- uid: ESGI.BehaviourTrees.Node`1.Agent*
+  name: Agent
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Agent_
+  commentId: Overload:ESGI.BehaviourTrees.Node`1.Agent
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.Agent
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).Agent
+  nameWithType: Node<TAgent>.Agent
+  nameWithType.vb: Node(Of TAgent).Agent
+- uid: ESGI.BehaviourTrees.Node`1.Children
+  name: Children
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Children
+  commentId: P:ESGI.BehaviourTrees.Node`1.Children
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.Children
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).Children
+  nameWithType: Node<TAgent>.Children
+  nameWithType.vb: Node(Of TAgent).Children
+- uid: ESGI.BehaviourTrees.Node`1.Children*
+  name: Children
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Children_
+  commentId: Overload:ESGI.BehaviourTrees.Node`1.Children
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.Children
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).Children
+  nameWithType: Node<TAgent>.Children
+  nameWithType.vb: Node(Of TAgent).Children
+- uid: ESGI.BehaviourTrees.Node`1.DrawGizmos
+  name: DrawGizmos()
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_DrawGizmos
+  commentId: M:ESGI.BehaviourTrees.Node`1.DrawGizmos
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.DrawGizmos()
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).DrawGizmos()
+  nameWithType: Node<TAgent>.DrawGizmos()
+  nameWithType.vb: Node(Of TAgent).DrawGizmos()
+- uid: ESGI.BehaviourTrees.Node`1.DrawGizmos*
+  name: DrawGizmos
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_DrawGizmos_
+  commentId: Overload:ESGI.BehaviourTrees.Node`1.DrawGizmos
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.DrawGizmos
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).DrawGizmos
+  nameWithType: Node<TAgent>.DrawGizmos
+  nameWithType.vb: Node(Of TAgent).DrawGizmos
+- uid: ESGI.BehaviourTrees.Node`1.Init(ESGI.BehaviourTrees.BehaviourTree{`0})
+  name: Init(BehaviourTree<TAgent>)
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Init_ESGI_BehaviourTrees_BehaviourTree__0__
+  commentId: M:ESGI.BehaviourTrees.Node`1.Init(ESGI.BehaviourTrees.BehaviourTree{`0})
+  name.vb: Init(BehaviourTree(Of TAgent))
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.Init(ESGI.BehaviourTrees.BehaviourTree<TAgent>)
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).Init(ESGI.BehaviourTrees.BehaviourTree(Of TAgent))
+  nameWithType: Node<TAgent>.Init(BehaviourTree<TAgent>)
+  nameWithType.vb: Node(Of TAgent).Init(BehaviourTree(Of TAgent))
+- uid: ESGI.BehaviourTrees.Node`1.Init*
+  name: Init
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Init_
+  commentId: Overload:ESGI.BehaviourTrees.Node`1.Init
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.Init
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).Init
+  nameWithType: Node<TAgent>.Init
+  nameWithType.vb: Node(Of TAgent).Init
+- uid: ESGI.BehaviourTrees.Node`1.IsRunningLastChild
+  name: IsRunningLastChild
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_IsRunningLastChild
+  commentId: P:ESGI.BehaviourTrees.Node`1.IsRunningLastChild
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.IsRunningLastChild
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).IsRunningLastChild
+  nameWithType: Node<TAgent>.IsRunningLastChild
+  nameWithType.vb: Node(Of TAgent).IsRunningLastChild
+- uid: ESGI.BehaviourTrees.Node`1.IsRunningLastChild*
+  name: IsRunningLastChild
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_IsRunningLastChild_
+  commentId: Overload:ESGI.BehaviourTrees.Node`1.IsRunningLastChild
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.IsRunningLastChild
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).IsRunningLastChild
+  nameWithType: Node<TAgent>.IsRunningLastChild
+  nameWithType.vb: Node(Of TAgent).IsRunningLastChild
+- uid: ESGI.BehaviourTrees.Node`1.LastChild
+  name: LastChild
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_LastChild
+  commentId: P:ESGI.BehaviourTrees.Node`1.LastChild
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.LastChild
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).LastChild
+  nameWithType: Node<TAgent>.LastChild
+  nameWithType.vb: Node(Of TAgent).LastChild
+- uid: ESGI.BehaviourTrees.Node`1.LastChild*
+  name: LastChild
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_LastChild_
+  commentId: Overload:ESGI.BehaviourTrees.Node`1.LastChild
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.LastChild
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).LastChild
+  nameWithType: Node<TAgent>.LastChild
+  nameWithType.vb: Node(Of TAgent).LastChild
+- uid: ESGI.BehaviourTrees.Node`1.OnBeforeExecute
+  name: OnBeforeExecute()
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_OnBeforeExecute
+  commentId: M:ESGI.BehaviourTrees.Node`1.OnBeforeExecute
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.OnBeforeExecute()
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).OnBeforeExecute()
+  nameWithType: Node<TAgent>.OnBeforeExecute()
+  nameWithType.vb: Node(Of TAgent).OnBeforeExecute()
+- uid: ESGI.BehaviourTrees.Node`1.OnBeforeExecute*
+  name: OnBeforeExecute
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_OnBeforeExecute_
+  commentId: Overload:ESGI.BehaviourTrees.Node`1.OnBeforeExecute
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.OnBeforeExecute
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).OnBeforeExecute
+  nameWithType: Node<TAgent>.OnBeforeExecute
+  nameWithType.vb: Node(Of TAgent).OnBeforeExecute
+- uid: ESGI.BehaviourTrees.Node`1.OnExecutionEnd
+  name: OnExecutionEnd()
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_OnExecutionEnd
+  commentId: M:ESGI.BehaviourTrees.Node`1.OnExecutionEnd
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.OnExecutionEnd()
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).OnExecutionEnd()
+  nameWithType: Node<TAgent>.OnExecutionEnd()
+  nameWithType.vb: Node(Of TAgent).OnExecutionEnd()
+- uid: ESGI.BehaviourTrees.Node`1.OnExecutionEnd*
+  name: OnExecutionEnd
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_OnExecutionEnd_
+  commentId: Overload:ESGI.BehaviourTrees.Node`1.OnExecutionEnd
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.OnExecutionEnd
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).OnExecutionEnd
+  nameWithType: Node<TAgent>.OnExecutionEnd
+  nameWithType.vb: Node(Of TAgent).OnExecutionEnd
+- uid: ESGI.BehaviourTrees.Node`1.OnInit
+  name: OnInit()
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_OnInit
+  commentId: M:ESGI.BehaviourTrees.Node`1.OnInit
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.OnInit()
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).OnInit()
+  nameWithType: Node<TAgent>.OnInit()
+  nameWithType.vb: Node(Of TAgent).OnInit()
+- uid: ESGI.BehaviourTrees.Node`1.OnInit*
+  name: OnInit
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_OnInit_
+  commentId: Overload:ESGI.BehaviourTrees.Node`1.OnInit
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.OnInit
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).OnInit
+  nameWithType: Node<TAgent>.OnInit
+  nameWithType.vb: Node(Of TAgent).OnInit
+- uid: ESGI.BehaviourTrees.Node`1.OnUpdate
+  name: OnUpdate()
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_OnUpdate
+  commentId: M:ESGI.BehaviourTrees.Node`1.OnUpdate
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.OnUpdate()
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).OnUpdate()
+  nameWithType: Node<TAgent>.OnUpdate()
+  nameWithType.vb: Node(Of TAgent).OnUpdate()
+- uid: ESGI.BehaviourTrees.Node`1.OnUpdate*
+  name: OnUpdate
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_OnUpdate_
+  commentId: Overload:ESGI.BehaviourTrees.Node`1.OnUpdate
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.OnUpdate
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).OnUpdate
+  nameWithType: Node<TAgent>.OnUpdate
+  nameWithType.vb: Node(Of TAgent).OnUpdate
+- uid: ESGI.BehaviourTrees.Node`1.State
+  name: State
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_State
+  commentId: P:ESGI.BehaviourTrees.Node`1.State
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.State
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).State
+  nameWithType: Node<TAgent>.State
+  nameWithType.vb: Node(Of TAgent).State
+- uid: ESGI.BehaviourTrees.Node`1.State*
+  name: State
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_State_
+  commentId: Overload:ESGI.BehaviourTrees.Node`1.State
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.State
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).State
+  nameWithType: Node<TAgent>.State
+  nameWithType.vb: Node(Of TAgent).State
+- uid: ESGI.BehaviourTrees.Node`1.Update
+  name: Update()
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Update
+  commentId: M:ESGI.BehaviourTrees.Node`1.Update
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.Update()
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).Update()
+  nameWithType: Node<TAgent>.Update()
+  nameWithType.vb: Node(Of TAgent).Update()
+- uid: ESGI.BehaviourTrees.Node`1.Update*
+  name: Update
+  href: api/ESGI.BehaviourTrees.Node-1.html#ESGI_BehaviourTrees_Node_1_Update_
+  commentId: Overload:ESGI.BehaviourTrees.Node`1.Update
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.Node<TAgent>.Update
+  fullName.vb: ESGI.BehaviourTrees.Node(Of TAgent).Update
+  nameWithType: Node<TAgent>.Update
+  nameWithType.vb: Node(Of TAgent).Update
+- uid: ESGI.BehaviourTrees.NodeBase
+  name: NodeBase
+  href: api/ESGI.BehaviourTrees.NodeBase.html
+  commentId: T:ESGI.BehaviourTrees.NodeBase
+  fullName: ESGI.BehaviourTrees.NodeBase
+  nameWithType: NodeBase
+- uid: ESGI.BehaviourTrees.NodeState
+  name: NodeState
+  href: api/ESGI.BehaviourTrees.NodeState.html
+  commentId: T:ESGI.BehaviourTrees.NodeState
+  fullName: ESGI.BehaviourTrees.NodeState
+  nameWithType: NodeState
+- uid: ESGI.BehaviourTrees.NodeState.Failure
+  name: Failure
+  href: api/ESGI.BehaviourTrees.NodeState.html#ESGI_BehaviourTrees_NodeState_Failure
+  commentId: F:ESGI.BehaviourTrees.NodeState.Failure
+  fullName: ESGI.BehaviourTrees.NodeState.Failure
+  nameWithType: NodeState.Failure
+- uid: ESGI.BehaviourTrees.NodeState.NotExecuted
+  name: NotExecuted
+  href: api/ESGI.BehaviourTrees.NodeState.html#ESGI_BehaviourTrees_NodeState_NotExecuted
+  commentId: F:ESGI.BehaviourTrees.NodeState.NotExecuted
+  fullName: ESGI.BehaviourTrees.NodeState.NotExecuted
+  nameWithType: NodeState.NotExecuted
+- uid: ESGI.BehaviourTrees.NodeState.Running
+  name: Running
+  href: api/ESGI.BehaviourTrees.NodeState.html#ESGI_BehaviourTrees_NodeState_Running
+  commentId: F:ESGI.BehaviourTrees.NodeState.Running
+  fullName: ESGI.BehaviourTrees.NodeState.Running
+  nameWithType: NodeState.Running
+- uid: ESGI.BehaviourTrees.NodeState.Success
+  name: Success
+  href: api/ESGI.BehaviourTrees.NodeState.html#ESGI_BehaviourTrees_NodeState_Success
+  commentId: F:ESGI.BehaviourTrees.NodeState.Success
+  fullName: ESGI.BehaviourTrees.NodeState.Success
+  nameWithType: NodeState.Success
+- uid: ESGI.BehaviourTrees.NodeVariable`1
+  name: NodeVariable<T>
+  href: api/ESGI.BehaviourTrees.NodeVariable-1.html
+  commentId: T:ESGI.BehaviourTrees.NodeVariable`1
+  name.vb: NodeVariable(Of T)
+  fullName: ESGI.BehaviourTrees.NodeVariable<T>
+  fullName.vb: ESGI.BehaviourTrees.NodeVariable(Of T)
+  nameWithType: NodeVariable<T>
+  nameWithType.vb: NodeVariable(Of T)
+- uid: ESGI.BehaviourTrees.NodeVariable`1.ResetVariable
+  name: ResetVariable()
+  href: api/ESGI.BehaviourTrees.NodeVariable-1.html#ESGI_BehaviourTrees_NodeVariable_1_ResetVariable
+  commentId: M:ESGI.BehaviourTrees.NodeVariable`1.ResetVariable
+  fullName: ESGI.BehaviourTrees.NodeVariable<T>.ResetVariable()
+  fullName.vb: ESGI.BehaviourTrees.NodeVariable(Of T).ResetVariable()
+  nameWithType: NodeVariable<T>.ResetVariable()
+  nameWithType.vb: NodeVariable(Of T).ResetVariable()
+- uid: ESGI.BehaviourTrees.NodeVariable`1.ResetVariable*
+  name: ResetVariable
+  href: api/ESGI.BehaviourTrees.NodeVariable-1.html#ESGI_BehaviourTrees_NodeVariable_1_ResetVariable_
+  commentId: Overload:ESGI.BehaviourTrees.NodeVariable`1.ResetVariable
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.NodeVariable<T>.ResetVariable
+  fullName.vb: ESGI.BehaviourTrees.NodeVariable(Of T).ResetVariable
+  nameWithType: NodeVariable<T>.ResetVariable
+  nameWithType.vb: NodeVariable(Of T).ResetVariable
+- uid: ESGI.BehaviourTrees.NodeVariable`1.Value
+  name: Value
+  href: api/ESGI.BehaviourTrees.NodeVariable-1.html#ESGI_BehaviourTrees_NodeVariable_1_Value
+  commentId: P:ESGI.BehaviourTrees.NodeVariable`1.Value
+  fullName: ESGI.BehaviourTrees.NodeVariable<T>.Value
+  fullName.vb: ESGI.BehaviourTrees.NodeVariable(Of T).Value
+  nameWithType: NodeVariable<T>.Value
+  nameWithType.vb: NodeVariable(Of T).Value
+- uid: ESGI.BehaviourTrees.NodeVariable`1.Value*
+  name: Value
+  href: api/ESGI.BehaviourTrees.NodeVariable-1.html#ESGI_BehaviourTrees_NodeVariable_1_Value_
+  commentId: Overload:ESGI.BehaviourTrees.NodeVariable`1.Value
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.NodeVariable<T>.Value
+  fullName.vb: ESGI.BehaviourTrees.NodeVariable(Of T).Value
+  nameWithType: NodeVariable<T>.Value
+  nameWithType.vb: NodeVariable(Of T).Value
+- uid: ESGI.BehaviourTrees.NodeVariableBase
+  name: NodeVariableBase
+  href: api/ESGI.BehaviourTrees.NodeVariableBase.html
+  commentId: T:ESGI.BehaviourTrees.NodeVariableBase
+  fullName: ESGI.BehaviourTrees.NodeVariableBase
+  nameWithType: NodeVariableBase
+- uid: ESGI.BehaviourTrees.SelectorNode`1
+  name: SelectorNode<TAgent>
+  href: api/ESGI.BehaviourTrees.SelectorNode-1.html
+  commentId: T:ESGI.BehaviourTrees.SelectorNode`1
+  name.vb: SelectorNode(Of TAgent)
+  fullName: ESGI.BehaviourTrees.SelectorNode<TAgent>
+  fullName.vb: ESGI.BehaviourTrees.SelectorNode(Of TAgent)
+  nameWithType: SelectorNode<TAgent>
+  nameWithType.vb: SelectorNode(Of TAgent)
+- uid: ESGI.BehaviourTrees.SelectorNode`1.OnUpdate
+  name: OnUpdate()
+  href: api/ESGI.BehaviourTrees.SelectorNode-1.html#ESGI_BehaviourTrees_SelectorNode_1_OnUpdate
+  commentId: M:ESGI.BehaviourTrees.SelectorNode`1.OnUpdate
+  fullName: ESGI.BehaviourTrees.SelectorNode<TAgent>.OnUpdate()
+  fullName.vb: ESGI.BehaviourTrees.SelectorNode(Of TAgent).OnUpdate()
+  nameWithType: SelectorNode<TAgent>.OnUpdate()
+  nameWithType.vb: SelectorNode(Of TAgent).OnUpdate()
+- uid: ESGI.BehaviourTrees.SelectorNode`1.OnUpdate*
+  name: OnUpdate
+  href: api/ESGI.BehaviourTrees.SelectorNode-1.html#ESGI_BehaviourTrees_SelectorNode_1_OnUpdate_
+  commentId: Overload:ESGI.BehaviourTrees.SelectorNode`1.OnUpdate
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.SelectorNode<TAgent>.OnUpdate
+  fullName.vb: ESGI.BehaviourTrees.SelectorNode(Of TAgent).OnUpdate
+  nameWithType: SelectorNode<TAgent>.OnUpdate
+  nameWithType.vb: SelectorNode(Of TAgent).OnUpdate
+- uid: ESGI.BehaviourTrees.SequenceNode`1
+  name: SequenceNode<TAgent>
+  href: api/ESGI.BehaviourTrees.SequenceNode-1.html
+  commentId: T:ESGI.BehaviourTrees.SequenceNode`1
+  name.vb: SequenceNode(Of TAgent)
+  fullName: ESGI.BehaviourTrees.SequenceNode<TAgent>
+  fullName.vb: ESGI.BehaviourTrees.SequenceNode(Of TAgent)
+  nameWithType: SequenceNode<TAgent>
+  nameWithType.vb: SequenceNode(Of TAgent)
+- uid: ESGI.BehaviourTrees.SequenceNode`1.OnUpdate
+  name: OnUpdate()
+  href: api/ESGI.BehaviourTrees.SequenceNode-1.html#ESGI_BehaviourTrees_SequenceNode_1_OnUpdate
+  commentId: M:ESGI.BehaviourTrees.SequenceNode`1.OnUpdate
+  fullName: ESGI.BehaviourTrees.SequenceNode<TAgent>.OnUpdate()
+  fullName.vb: ESGI.BehaviourTrees.SequenceNode(Of TAgent).OnUpdate()
+  nameWithType: SequenceNode<TAgent>.OnUpdate()
+  nameWithType.vb: SequenceNode(Of TAgent).OnUpdate()
+- uid: ESGI.BehaviourTrees.SequenceNode`1.OnUpdate*
+  name: OnUpdate
+  href: api/ESGI.BehaviourTrees.SequenceNode-1.html#ESGI_BehaviourTrees_SequenceNode_1_OnUpdate_
+  commentId: Overload:ESGI.BehaviourTrees.SequenceNode`1.OnUpdate
+  isSpec: "True"
+  fullName: ESGI.BehaviourTrees.SequenceNode<TAgent>.OnUpdate
+  fullName.vb: ESGI.BehaviourTrees.SequenceNode(Of TAgent).OnUpdate
+  nameWithType: SequenceNode<TAgent>.OnUpdate
+  nameWithType.vb: SequenceNode(Of TAgent).OnUpdate
+- uid: ESGI.BehaviourTrees.Variables
+  name: ESGI.BehaviourTrees.Variables
+  href: api/ESGI.BehaviourTrees.Variables.html
+  commentId: N:ESGI.BehaviourTrees.Variables
+  fullName: ESGI.BehaviourTrees.Variables
+  nameWithType: ESGI.BehaviourTrees.Variables
+- uid: ESGI.BehaviourTrees.Variables.SharedTransform
+  name: SharedTransform
+  href: api/ESGI.BehaviourTrees.Variables.SharedTransform.html
+  commentId: T:ESGI.BehaviourTrees.Variables.SharedTransform
+  fullName: ESGI.BehaviourTrees.Variables.SharedTransform
+  nameWithType: SharedTransform
