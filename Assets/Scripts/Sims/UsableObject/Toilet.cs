@@ -8,6 +8,7 @@ public class Toilet : UsableObject
     {
         this.objectName = "toilet";
         this.timeToUse = 4f;
+        this.isInUse = false;
     }
     // Start is called before the first frame update
     void Start()

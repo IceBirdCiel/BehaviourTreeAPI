@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb89b3eceea8cc4aae84d73b6566488, type: 3}
+  m_Name: SequenceSleep
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 11400000, guid: 4d42b690bdfb87d43be1565cee6bfab9, type: 2}
+  - {fileID: 11400000, guid: ccd775c8d0c80d040a4bc5cd96b925d0, type: 2}
+  - {fileID: 11400000, guid: f66760fb7dae19b49895010f06c9bdd1, type: 2}
+  - {fileID: 11400000, guid: 857abbcee5e68154d828573e993795bb, type: 2}
+  - {fileID: 11400000, guid: 53fd293dd4240b84a84e373ac09c1aa3, type: 2}

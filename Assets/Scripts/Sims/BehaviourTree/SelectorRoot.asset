@@ -13,4 +13,10 @@ MonoBehaviour:
   m_Name: SelectorRoot
   m_EditorClassIdentifier: 
   children:
+  - {fileID: 11400000, guid: aaeb79757ca579b4bbc9f751ab702858, type: 2}
   - {fileID: 11400000, guid: 6801d0e05539a874c9c038ac9792db63, type: 2}
+  - {fileID: 11400000, guid: 39c122aac83de93428ebe07ae692c621, type: 2}
+  - {fileID: 11400000, guid: b1f159fd8ac0c8a4cb0aa403dc63bd67, type: 2}
+  - {fileID: 11400000, guid: d49e1a5e4086b524ba43a6efbab30dff, type: 2}
+  - {fileID: 11400000, guid: 21cf5bf44df0b024387aade121335c49, type: 2}
+  - {fileID: 11400000, guid: 70f298b6138b7604690c1ebdd24adf49, type: 2}

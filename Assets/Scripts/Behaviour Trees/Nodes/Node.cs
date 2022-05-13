@@ -20,6 +20,7 @@ namespace ESGI.BehaviourTrees
         /// </summary>
         public BehaviourTree<TAgent> Tree { get; set; }
 
+        [ShowInInspector]
         public TAgent Agent => Tree.Agent;
 
         protected Node<TAgent> Parent { get; set; }
@@ -87,7 +88,7 @@ namespace ESGI.BehaviourTrees
             {
                 OnExecutionEnd();
             }
-            PGDebug.SetCondition(Debug).SetContext(this).Message($"Update Node {name}, state is {State}").Log();
+            PGDebug.SetCondition(Debug).SetContext(this).Message($"Update Node {name}, name {Tree.name}, state is {State}").Log();
             return State;
         }
 

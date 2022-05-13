@@ -35,25 +35,26 @@ MonoBehaviour:
     - Dreamteck.Utilities
     - Dreamteck.Splines
     - ShapesRuntime
-    - LeTai.TrueShadow.Demo
+    - Cinemachine
     - Animancer.Examples
-    - LeanTouch
-    - LeanCommon
+    - LeTai.TrueShadow.Demo
     - Animancer
+    - LeanTouch
     - LeanLocalization
-    - Sirenix.OdinInspector.CompatibilityLayer
     - Animancer.FSM
+    - LeanCommon
     - LoadingScreen.Misc
+    - Sirenix.OdinInspector.CompatibilityLayer
+    - AmplifyShaderEditor
     - Dreamteck.Splines.Editor
-    - ShapesEditor
-    - Sirenix.OdinInspector.CompatibilityLayer.Editor
-    - AssetUsageDetector.Editor
     - PlayFabEditorExtensions
+    - ShapesEditor
     - Dreamteck.Utilities.Editor
     - LeTai.TrueShadow.Editor
-    - PlayFabSDKEditor
+    - AssetUsageDetector.Editor
+    - Sirenix.OdinInspector.CompatibilityLayer.Editor
     - Sirenix.OdinInspector.Modules.UnityMathematics
-    - AmplifyShaderEditor
+    - PlayFabSDKEditor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1

@@ -15,7 +15,7 @@ public class SimsController : MonoBehaviour
 
     [Tooltip("How fast the character turns to face movement direction")]
     [Range(0f, 240f)]
-    public float RotationSmoothTime = 120f;
+    public float RotationSmoothTime = 240f;
 
     [Tooltip("Acceleration and deceleration")]
     public float SpeedChangeRate = 10.0f;
@@ -39,6 +39,8 @@ public class SimsController : MonoBehaviour
     private int _animIDJump;
     private int _animIDFreeFall;
     private int _animIDMotionSpeed;
+
+    bool isWalking = false;
 
     RaycastHit hitInfo = new RaycastHit();
 
@@ -74,6 +76,14 @@ public class SimsController : MonoBehaviour
             }  
         }
 
+        if (isWalking)
+        {
+            float targetSpeed = false ? SprintSpeed : MoveSpeed;
+
+            _animationBlend = Mathf.Lerp(_animationBlend, targetSpeed, Time.deltaTime * SpeedChangeRate);
+            if (_animationBlend < 0.01f) _animationBlend = 0f;
+        }
+
         //if (currentAction == null)
         //{
         //    if (actionQueue.Count > 0)
@@ -101,10 +111,7 @@ public class SimsController : MonoBehaviour
 
     _hasAnimator = TryGetComponent(out _animator);
 
-        float targetSpeed = false ? SprintSpeed : MoveSpeed;
-
-        _animationBlend = Mathf.Lerp(_animationBlend, targetSpeed, Time.deltaTime * SpeedChangeRate);
-        if (_animationBlend < 0.01f) _animationBlend = 0f;
+        
 
         float inputMagnitude = 1f;
 
@@ -129,5 +136,30 @@ public class SimsController : MonoBehaviour
         _animIDFreeFall = Animator.StringToHash("FreeFall");
         _animIDMotionSpeed = Animator.StringToHash("MotionSpeed");
     }
+
+    public void walk()
+    {
+        isWalking = true;
+        
+    }
+
+    public void idle()
+    {
+        isWalking = false;
+        _animationBlend = 0;
+    }
+
+    public Vector3 getRandomPos()
+    {
+        Vector3 randomDirection = Random.insideUnitSphere * 18;
+        randomDirection += transform.position;
+        NavMeshHit hit;
+        NavMesh.SamplePosition(randomDirection, out hit, 18, 1);
+        Vector3 finalPosition = hit.position;
+        return finalPosition;
+    }
+
+    
+    
 
 }

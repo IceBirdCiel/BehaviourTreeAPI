@@ -10,10 +10,11 @@ namespace ESGI.BehaviourTrees
         // Start is called before the first frame update
         void Start()
         {
+            /*
             if(tree.root is ConditionNodeBase)
             {
 
-            }
+            }*/
         }
 
         // Update is called once per frame

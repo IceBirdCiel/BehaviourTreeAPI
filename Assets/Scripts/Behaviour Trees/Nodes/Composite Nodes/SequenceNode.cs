@@ -27,8 +27,8 @@ namespace ESGI.BehaviourTrees
                     case NodeState.Success:
                         continue;
                     case NodeState.Running:
-                        childRunning = true;
-                        continue;
+                        return NodeState.Running;
+                        
                     case NodeState.NotExecuted:
                         continue;
                     default:

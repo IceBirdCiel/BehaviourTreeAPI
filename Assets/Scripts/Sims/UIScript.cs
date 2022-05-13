@@ -57,7 +57,7 @@ public class UIScript : MonoBehaviour
                     vieSociale.value = besoin.value / 100;
                     changeColor(vieSociale);
                     break;
-                case "Hygiène":
+                case "Hygiene":
                     hygiène.value = besoin.value / 100;
                     changeColor(hygiène);
                     break;

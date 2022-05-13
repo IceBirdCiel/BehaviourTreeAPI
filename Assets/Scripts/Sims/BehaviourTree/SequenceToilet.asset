@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: SequenceToilet
   m_EditorClassIdentifier: 
   children:
+  - {fileID: 11400000, guid: 1c28debad4184e44f8485be05b74fec3, type: 2}
   - {fileID: 11400000, guid: 4f06b0200a3248440b1e23637b4c2e43, type: 2}
   - {fileID: 11400000, guid: c1a746e34d121414193657fa21e62c2b, type: 2}
-  - {fileID: 11400000, guid: 4f06b0200a3248440b1e23637b4c2e43, type: 2}
+  - {fileID: 11400000, guid: fecc3b369bb69c542a0d0234d925b4b2, type: 2}
   - {fileID: 11400000, guid: 0b20f5015fbca4944a4da8463e30d115, type: 2}

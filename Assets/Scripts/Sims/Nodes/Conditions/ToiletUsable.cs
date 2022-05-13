@@ -4,6 +4,7 @@ using UnityEngine;
 
 using ESGI.BehaviourTrees;
 using PGSauce.Core.Strings;
+using PGSauce.Core.PGDebugging;
 
 [CreateAssetMenu(menuName = MenuPaths.Nodes + "Sims/Conditions/ToiletUsable")]
 public class ToiletUsable : ConditionNode<SimsController>
@@ -20,6 +21,7 @@ public class ToiletUsable : ConditionNode<SimsController>
 
     protected override NodeState OnUpdate()
     {
+        PGDebug.Message($"TOILET USABLE UPDATE").Log();
         foreach(UsableObject usable in usables)
         {
             if (!usable.isInUse)

@@ -20,14 +20,4 @@ public class UsableObject : MonoBehaviour
         isInUse=false;
     }
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

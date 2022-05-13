@@ -40,14 +40,14 @@ public class Besoins : MonoBehaviour
     void Start()
     {
         besoins = new Dictionary<string, Besoin>();
-        besoins.Add("Appetit", new Besoin("Appetit", 100, 10f, 1, true));
-        besoins.Add("Confort", new Besoin("Confort", 100, 10f, 1, false));
-        besoins.Add("Petits_besoins", new Besoin("Petits_besoins", 100, 10f, 1, false));
-        besoins.Add("Energie", new Besoin("Energie", 100, 10f, 1, false));
-        besoins.Add("Distractions", new Besoin("Distractions", 100, 10f, 1, false));
-        besoins.Add("Vie_sociale", new Besoin("Vie_sociale", 100, 10f, 1, false));
-        besoins.Add("Hygiène", new Besoin("Hygiène", 100, 10f, 1, false));
-        besoins.Add("Environnement", new Besoin("Environnement", 100, 10f, 1, false));
+        besoins.Add("Appetit", new Besoin("Appetit", 80, 0.09f, 6f, true));
+        besoins.Add("Confort", new Besoin("Confort", 100, 0f, 6f, false));
+        besoins.Add("Petits_besoins", new Besoin("Petits_besoins", 60, 0.05f, 6f, false));
+        besoins.Add("Energie", new Besoin("Energie", 50, 0.1f, 6f, false));
+        besoins.Add("Distractions", new Besoin("Distractions", 100, 0.1f, 6f, false));
+        besoins.Add("Vie_sociale", new Besoin("Vie_sociale", 100, 0f, 6f, false));
+        besoins.Add("Hygiene", new Besoin("Hygiene", 80, 0.2f, 6f, false));
+        besoins.Add("Environnement", new Besoin("Environnement", 76, 0.09f, 6f, false));
     }
 
     // Update is called once per frame
@@ -59,7 +59,7 @@ public class Besoins : MonoBehaviour
             {
                 if (b.isIncreasing)
                 {
-                    b.value -= b.increaseOverTime * Time.deltaTime;
+                    b.value += b.increaseOverTime * Time.deltaTime;
                 }
                 else
                 {
