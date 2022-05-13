@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83d423e38a0b184449788c71b19a4e79, type: 3}
+  m_Name: SEQUENCE Attack Ennemy
+  m_EditorClassIdentifier: 
+  children:
+  - {fileID: 11400000, guid: f24698c4f3a599f419cbc19817ebfae7, type: 2}
+  - {fileID: 11400000, guid: 20872b31d0199a1419f4b073e2baf3d8, type: 2}
